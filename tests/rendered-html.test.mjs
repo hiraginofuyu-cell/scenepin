@@ -87,6 +87,9 @@ test("renders the 2026 spring anime archive", async () => {
   assert.match(html, /冬に咲く春の花/);
   assert.match(html, /ようこそ実力至上主義の教室へ/);
   assert.match(html, /ある未来のために/);
+  assert.match(html, /とんがり帽子のアトリエ/);
+  assert.match(html, /禁じられた魔法/);
+  assert.match(html, /43(?:<!-- -->)?話・(?:<!-- -->)?3(?:<!-- -->)?作品は各話収録済み/);
   assert.match(html, /COMPLETE SEASON INDEX/);
   assert.match(html, /<strong>88<\/strong><span>TITLES<\/span>/);
   assert.match(html, /黄泉のツガイ/);
