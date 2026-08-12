@@ -36,15 +36,15 @@ const archiveEpisodes: ArchiveEpisode[] = [
     ].filter(Boolean),
     href: `/season/2026-summer?q=${encodeURIComponent(episode.title)}`,
   })),
-  ...springEpisodes.map((episode) => ({
-    id: `spring-2026-${episode.number}`,
-    work: springWorks[0],
+  ...springEpisodes.map((episode, index) => ({
+    id: `spring-2026-${index}`,
+    work: episode.work,
     label: episode.label,
     title: episode.title,
     period: "2026年春",
     people: episode.characters,
     keywords: [episode.summary, ...episode.keywords, episode.airtime],
-    href: `/season/2026-spring?q=${encodeURIComponent(episode.title)}`,
+    href: `/season/2026-spring?work=${encodeURIComponent(episode.work)}&q=${encodeURIComponent(episode.title)}`,
   })),
   ...gintamaEpisodes.map((episode) => ({
     id: `gintama-${episode.number}`,
@@ -78,7 +78,7 @@ const collections = [
   {
     kicker: "PAST SEASON · FIRST COLLECTION",
     title: "2026年春アニメ",
-    description: "公式各話紹介をもとに、タイトル・あらすじ・明記された人物を収録。第1弾から順次拡張中です。",
+    description: "公式各話紹介をもとに、タイトル・あらすじ・明記された人物を収録。確認できた作品を順次拡張中です。",
     count: `${springEpisodes.length}話・${springWorks.length}作品`,
     href: "/season/2026-spring",
     accent: "spring",

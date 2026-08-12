@@ -6,7 +6,7 @@ import { bleachEpisodes } from "../works/bleach/data";
 import { gintamaEpisodes } from "../works/gintama/data";
 import { broadcasts } from "../works/wednesday-downtown/2025/data";
 import { currentEpisodes } from "../season/2026-summer/data";
-import { springEpisodes, springWorks } from "../season/2026-spring/data";
+import { springEpisodes } from "../season/2026-spring/data";
 import { currentPrograms } from "../current/data";
 import styles from "./search.module.css";
 
@@ -45,16 +45,16 @@ const items: SearchItem[] = [
     group:"2026年夏アニメ",
     href:`/season/2026-summer?q=${encodeURIComponent(episode.title)}`,
   })),
-  ...springEpisodes.map((episode) => ({
-    id: `spring-2026-${episode.number}`,
-    work: springWorks[0],
+  ...springEpisodes.map((episode, index) => ({
+    id: `spring-2026-${index}`,
+    work: episode.work,
     category: "アニメ",
     label: episode.label,
     title: episode.title,
     people: episode.characters,
     keywords: [episode.summary, ...episode.keywords, episode.airtime, "2026年春", "春アニメ"],
     group: "2026年春アニメ",
-    href: `/season/2026-spring?q=${encodeURIComponent(episode.title)}`,
+    href: `/season/2026-spring?work=${encodeURIComponent(episode.work)}&q=${encodeURIComponent(episode.title)}`,
   })),
   ...gintamaEpisodes.map((episode) => ({
     id: `gintama-${episode.number}`,

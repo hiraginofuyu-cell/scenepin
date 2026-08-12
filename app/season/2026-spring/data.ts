@@ -1,4 +1,5 @@
 export type SpringEpisode = {
+  work: string;
   number: number;
   label: string;
   title: string;
@@ -9,9 +10,12 @@ export type SpringEpisode = {
   sourceUrl: string;
 };
 
-export const springWorks = ["春夏秋冬代行者 春の舞"];
+export const springWorks = [
+  "春夏秋冬代行者 春の舞",
+  "ようこそ実力至上主義の教室へ 4th Season 2年生編1学期",
+];
 
-export const springEpisodes: SpringEpisode[] = [
+const fourSeasonsEpisodes: Omit<SpringEpisode, "work">[] = [
   {
     number: 1,
     label: "第壱話",
@@ -152,4 +156,172 @@ export const springEpisodes: SpringEpisode[] = [
     keywords: ["華歳", "爆弾", "君命", "最終話", "避難誘導"],
     sourceUrl: "https://4seasons-anime.com/episode/",
   },
+];
+
+const classroomEpisodes: Omit<SpringEpisode, "work">[] = [
+  {
+    number: 1,
+    label: "第1話",
+    title: "ホワイトルームからの刺客",
+    airtime: "2026年4月1日 22:30〜24:00（初回4話連続）",
+    summary: "2年生となりDクラスへ戻った綾小路たちに、全生徒を数値化するOAAが導入される。最初の特別試験は、1年生と2年生がペアを組む筆記試験だった。",
+    characters: ["綾小路"],
+    keywords: ["OAA", "新入生", "特別試験", "学年混合ペア"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 2,
+    label: "第2話",
+    title: "契約と代償",
+    airtime: "2026年4月1日 22:30〜24:00（初回4話連続）",
+    summary: "七瀬と宝泉が去った後、八神が非礼をわびて櫛田へペアを申し出る。堀北たちはDクラスの1年生を中心に、特別試験の協力相手を探し始める。",
+    characters: ["七瀬", "宝泉", "八神", "櫛田", "堀北"],
+    keywords: ["ペア探し", "契約", "1年Dクラス", "特別試験"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 3,
+    label: "第3話",
+    title: "リーダーたる覚悟",
+    airtime: "2026年4月1日 22:30〜24:00（初回4話連続）",
+    summary: "堀北は宝泉との交渉を試みるが、取りつく島もなく断られる。そこへ七瀬が現れ、表に出ない形で交渉を進める案を持ちかける。",
+    characters: ["堀北", "宝泉", "七瀬"],
+    keywords: ["クラス交渉", "リーダー", "1年Dクラス", "協力関係"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 4,
+    label: "第4話",
+    title: "刃の向く先",
+    airtime: "2026年4月1日 22:30〜24:00（初回4話連続）",
+    summary: "宝泉がプライベートポイントを要求する一方、堀北は対等な協力関係を譲らない。七瀬は綾小路から得た情報を手に、交渉を前へ進めようとする。",
+    characters: ["堀北", "宝泉", "七瀬", "綾小路"],
+    keywords: ["プライベートポイント", "対等な協力", "交渉", "駆け引き"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 5,
+    label: "第5話",
+    title: "２０００万の男",
+    airtime: "2026年4月8日 22:30",
+    summary: "綾小路は自分を狙う1年生の策をかわしながら試験へ臨む。だが試験後、2年Dクラスから結果に不正があったのではないかという疑いを向けられる。",
+    characters: ["綾小路"],
+    keywords: ["2000万ポイント", "不正疑惑", "特別試験", "1年生の策"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 6,
+    label: "第6話",
+    title: "波乱の争奪戦",
+    airtime: "2026年4月15日 22:30",
+    summary: "全学年が競う2週間の無人島サバイバル試験が発表される。グループ作りに与えられた4週間で、有力な生徒をめぐる争奪戦が始まる。",
+    characters: [],
+    keywords: ["無人島サバイバル", "全学年対抗", "グループ作り", "人材争奪"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 7,
+    label: "第7話",
+    title: "暗躍",
+    airtime: "2026年4月22日 22:30",
+    summary: "2年生のグループ編成が進む中、1年生各クラスの代表が集まる。宝泉はポイントでの取引がなければ協力しないと主張し、宇都宮が反発する。",
+    characters: ["宝泉", "宇都宮"],
+    keywords: ["グループ編成", "1年生代表", "ポイント取引", "対立"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 8,
+    label: "第8話",
+    title: "龍たちの見つめるもの",
+    airtime: "2026年4月29日 22:30",
+    summary: "桐山は綾小路を呼び出し、南雲へ挑む代わりに試験では干渉しないと告げる。そこへ、学校でも異彩を放つ鬼龍院が姿を見せる。",
+    characters: ["桐山", "綾小路", "南雲", "鬼龍院"],
+    keywords: ["南雲への挑戦", "不干渉", "鬼龍院", "グループ期限"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 9,
+    label: "第9話",
+    title: "不穏なる開幕",
+    airtime: "2026年5月6日 22:30",
+    summary: "無人島サバイバル試験が始まり、移動や課題の達成度がポイントを左右する。月城は監視下でも、生徒同士の小競り合いを一定範囲で認める。",
+    characters: ["月城"],
+    keywords: ["無人島試験開幕", "腕時計", "指定エリア", "小競り合い"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 10,
+    label: "第10話",
+    title: "届かぬ想い",
+    airtime: "2026年5月13日 22:30",
+    summary: "試験2日目、綾小路は七瀬の同行希望を受け入れる。野営予定地には須藤のグループが先着しており、両者はその場で合流する。",
+    characters: ["綾小路", "七瀬", "須藤"],
+    keywords: ["試験2日目", "同行", "野営地", "グループ合流"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 11,
+    label: "第11話",
+    title: "縁（えにし）",
+    airtime: "2026年5月20日 22:30",
+    summary: "綾小路たちは森で倒れている小宮と木下を発見する。小宮は篠原を待っていたところ何者かに殴られ、崖から落ちたと証言する。",
+    characters: ["綾小路", "小宮", "木下", "篠原"],
+    keywords: ["森の事件", "崖下", "襲撃者", "篠原"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 12,
+    label: "第12話",
+    title: "怨讐の果てに",
+    airtime: "2026年5月27日 22:30",
+    summary: "試験7日目、雨を警戒して迂回を提案する綾小路に対し、七瀬は山越えを譲らない。山頂へ着くと、七瀬は綾小路へ胸の内を語り始める。",
+    characters: ["綾小路", "七瀬"],
+    keywords: ["試験7日目", "雨の山道", "山頂", "七瀬の告白"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 13,
+    label: "第13話",
+    title: "雨に煙る",
+    airtime: "2026年6月3日 22:30",
+    summary: "協力を始めた綾小路と七瀬の前へ天沢が現れる。七瀬は小宮と木下の転落現場で見た特徴的な髪の人物が天沢だと考え、問い詰める。",
+    characters: ["天沢", "綾小路", "七瀬", "小宮", "木下"],
+    keywords: ["天沢との対峙", "転落事件", "雨", "疑惑"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 14,
+    label: "第14話",
+    title: "孤高の麒麟児",
+    airtime: "2026年6月10日 22:30",
+    summary: "試験10日目、首位の南雲を高円寺が猛追する。桐山は3年生の6グループを動かして高円寺を止めようとするが、本人は意に介さない。",
+    characters: ["南雲", "高円寺", "桐山"],
+    keywords: ["首位争い", "高円寺包囲", "3年生", "試験10日目"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 15,
+    label: "第15話",
+    title: "力と意志",
+    airtime: "2026年6月17日 22:30",
+    summary: "椿の指示で1年生グループが綾小路を包囲し、指定エリアから外して失格へ追い込もうとする。しかし作戦の最中、包囲する側の動きが突然止まる。",
+    characters: ["綾小路", "椿"],
+    keywords: ["包囲作戦", "失格狙い", "1年生連合", "作戦停止"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+  {
+    number: 16,
+    label: "第16話",
+    title: "ある未来のために",
+    airtime: "2026年6月24日 22:30",
+    summary: "一之瀬と南雲に別れを告げた綾小路はI2で待機し、月城と司馬の襲撃を受ける。一方、退学を示唆するメモを得た堀北もI2へ向かう。",
+    characters: ["綾小路", "一之瀬", "南雲", "月城", "司馬", "堀北"],
+    keywords: ["I2", "月城と司馬", "退学阻止", "最終話"],
+    sourceUrl: "https://you-zitsu.com/story.html",
+  },
+];
+
+export const springEpisodes: SpringEpisode[] = [
+  ...fourSeasonsEpisodes.map((episode) => ({ work: springWorks[0], ...episode })),
+  ...classroomEpisodes.map((episode) => ({ work: springWorks[1], ...episode })),
 ];
