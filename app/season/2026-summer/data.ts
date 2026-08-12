@@ -1,5 +1,5 @@
 export type ReactionSnapshot={
- stage:"放送中"|"放送直後"|"3時間後"|"24時間後";
+ stage:"放送中"|"放送直後"|"2時間後"|"3時間後"|"24時間後";
  collectedAt:string;
  sampleSize:number;
  overview:string;
@@ -1333,6 +1333,43 @@ const episodeReactions:Record<string,SocialReaction>={
    "https://x.com/halu_yuri/status/2087212687839383576",
   ],
  },
+ "ヒロイン？聖女？いいえ、オールワークスメイドです（誇）！|第7話":{
+  status:"limited",
+  window:"放送終了約2時間後",
+  history:[{
+   stage:"2時間後",
+   collectedAt:"2026-08-13T00:43:55+09:00",
+   sampleSize:2,
+   overview:"少数の公開感想では、アンネマリーが「アンナ」としてメロディと孤児院を訪れる展開を温かく受け止める反応と、ゲームのバッドエンドを意識しながらもメロディの正体に届かない状況を焦れったく感じる反応を確認できた。",
+   themes:["アンナとメロディの孤児院での交流","孤児院に幸運をもたらすアンナ","バッドエンドを巡る焦り"],
+   divided:"孤児院での交流を温かく受け止める反応がある一方、正体やシナリオの進展が遅いことを焦れったく見る反応も確認できた。",
+   sourceUrls:[
+    "https://x.com/kotoko_raigu2/status/2087531207945056512",
+    "https://x.com/laki0814/status/2087529093898408344",
+   ],
+  }],
+  sampleSize:2,
+  collectedAt:"2026-08-13T00:43:55+09:00",
+  overview:"少数の公開感想では、アンネマリーが「アンナ」としてメロディと孤児院を訪れる展開を温かく受け止める反応と、ゲームのバッドエンドを意識しながらもメロディの正体に届かない状況を焦れったく感じる反応を確認できた。",
+  themes:["アンナとメロディの孤児院での交流","孤児院に幸運をもたらすアンナ","バッドエンドを巡る焦り"],
+  divided:"孤児院での交流を温かく受け止める反応がある一方、正体やシナリオの進展が遅いことを焦れったく見る反応も確認できた。",
+  sourceUrls:[
+   "https://x.com/kotoko_raigu2/status/2087531207945056512",
+   "https://x.com/laki0814/status/2087529093898408344",
+  ],
+ },
+ "クレバテスⅡ-魔獣の王と偽りの勇者伝承-|第6話":{
+  status:"insufficient",
+  window:"放送終了約2時間後",
+  history:[],
+  sampleSize:0,
+  collectedAt:"2026-08-13T00:43:55+09:00",
+  overview:"公開検索で対象回の感想を確認できませんでした。",
+  themes:[],
+  divided:"",
+  sourceUrls:[],
+ },
+
 };
 export const currentEpisodes:CurrentEpisode[]=baseEpisodes.map(episode=>({
  ...episode,
