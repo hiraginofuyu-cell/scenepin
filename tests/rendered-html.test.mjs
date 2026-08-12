@@ -30,3 +30,31 @@ test("renders the ScenePin home page", async () => {
   assert.match(html, /ScenePin/i);
   assert.doesNotMatch(html, /codex-preview/i);
 });
+
+test("renders the anime archive page", async () => {
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("anime-test", `${process.pid}-${Date.now()}`);
+  const { default: worker } = await import(workerUrl.href);
+
+  const response = await worker.fetch(
+    new Request("http://localhost/anime", {
+      headers: { accept: "text/html" },
+    }),
+    {
+      ASSETS: {
+        fetch: async () => new Response("Not found", { status: 404 }),
+      },
+    },
+    {
+      waitUntil() {},
+      passThroughOnException() {},
+    },
+  );
+
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /ANIME ARCHIVE/i);
+  assert.match(html, /2026年夏アニメ/);
+  assert.match(html, /銀魂/);
+  assert.match(html, /BLEACH/);
+});

@@ -108,7 +108,7 @@ export default function GlobalSearch() {
 
   return (
     <main className={styles.page}>
-      <header><Link href="/">← ScenePin</Link><b>全作品キーワード検索</b></header>
+      <header><Link href="/">← ScenePin</Link><b>全作品キーワード検索</b><Link href="/anime">アニメ一覧</Link></header>
       <section className={styles.hero}>
         <p>SEARCH EVERY SCENE</p>
         <h1>覚えている言葉から、<br /><span>何話か見つける。</span></h1>

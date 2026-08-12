@@ -225,7 +225,7 @@ export default function Home() {
           <span>ScenePin</span>
         </a>
         <nav aria-label="メインナビゲーション">
-          <a href="#works">
+          <a href="/anime">
             <span className="nav-icon blue">▦</span>作品一覧
           </a>
           <a href="#results">
@@ -401,6 +401,9 @@ export default function Home() {
               <i>→</i>
             </button>
           ))}
+        </div>
+        <div style={{textAlign:"center",marginTop:28}}>
+          <a href="/anime" style={{display:"inline-block",padding:"14px 22px",borderRadius:999,background:"#17324d",color:"white",fontWeight:900,textDecoration:"none"}}>アニメアーカイブを開く →</a>
         </div>
       </section>
 
