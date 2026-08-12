@@ -1370,6 +1370,29 @@ const episodeReactions:Record<string,SocialReaction>={
   sourceUrls:[],
  },
 
+ "Re:ゼロから始める異世界生活 4th Season|第78話":{
+  status:"insufficient",
+  window:"放送終了約2時間後",
+  history:[],
+  sampleSize:0,
+  collectedAt:"2026-08-13T01:40:50+09:00",
+  overview:"公開検索で対象回の感想を確認できませんでした。",
+  themes:[],
+  divided:"",
+  sourceUrls:[],
+ },
+ "幼女戦記Ⅱ|第6話":{
+  status:"insufficient",
+  window:"放送終了約2時間後",
+  history:[],
+  sampleSize:0,
+  collectedAt:"2026-08-13T01:40:50+09:00",
+  overview:"公開検索で対象回の感想を確認できませんでした。",
+  themes:[],
+  divided:"",
+  sourceUrls:[],
+ },
+
 };
 export const currentEpisodes:CurrentEpisode[]=baseEpisodes.map(episode=>({
  ...episode,
