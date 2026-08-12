@@ -55,6 +55,34 @@ test("renders the anime archive page", async () => {
   const html = await response.text();
   assert.match(html, /ANIME ARCHIVE/i);
   assert.match(html, /2026年夏アニメ/);
+  assert.match(html, /2026年春アニメ/);
   assert.match(html, /銀魂/);
   assert.match(html, /BLEACH/);
+});
+
+test("renders the 2026 spring anime archive", async () => {
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("spring-test", `${process.pid}-${Date.now()}`);
+  const { default: worker } = await import(workerUrl.href);
+
+  const response = await worker.fetch(
+    new Request("http://localhost/season/2026-spring", {
+      headers: { accept: "text/html" },
+    }),
+    {
+      ASSETS: {
+        fetch: async () => new Response("Not found", { status: 404 }),
+      },
+    },
+    {
+      waitUntil() {},
+      passThroughOnException() {},
+    },
+  );
+
+  assert.equal(response.status, 200);
+  const html = await response.text();
+  assert.match(html, /PAST ANIME · 2026 SPRING/i);
+  assert.match(html, /春夏秋冬代行者 春の舞/);
+  assert.match(html, /冬に咲く春の花/);
 });
