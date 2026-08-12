@@ -1,0 +1,1 @@
+import type {Metadata} from "next";export const metadata:Metadata={title:"2026年夏アニメ 各話一覧 | ScenePin",description:"今期アニメの放送回とサブタイトルを作品ごとに検索できます。"};export default function Layout({children}:{children:React.ReactNode}){return children}
