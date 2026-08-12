@@ -85,4 +85,6 @@ test("renders the 2026 spring anime archive", async () => {
   assert.match(html, /PAST ANIME · 2026 SPRING/i);
   assert.match(html, /春夏秋冬代行者 春の舞/);
   assert.match(html, /冬に咲く春の花/);
+  assert.match(html, /ようこそ実力至上主義の教室へ/);
+  assert.match(html, /ある未来のために/);
 });
