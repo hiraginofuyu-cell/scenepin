@@ -5,6 +5,7 @@ import { FormEvent, useMemo, useState } from "react";
 import { bleachEpisodes } from "../works/bleach/data";
 import { gintamaEpisodes } from "../works/gintama/data";
 import { currentEpisodes, currentWorks } from "../season/2026-summer/data";
+import { springEpisodes, springWorks } from "../season/2026-spring/data";
 import styles from "./archive.module.css";
 
 type ArchiveEpisode = {
@@ -35,6 +36,16 @@ const archiveEpisodes: ArchiveEpisode[] = [
     ].filter(Boolean),
     href: `/season/2026-summer?q=${encodeURIComponent(episode.title)}`,
   })),
+  ...springEpisodes.map((episode) => ({
+    id: `spring-2026-${episode.number}`,
+    work: springWorks[0],
+    label: episode.label,
+    title: episode.title,
+    period: "2026年春",
+    people: episode.characters,
+    keywords: [episode.summary, ...episode.keywords, episode.airtime],
+    href: `/season/2026-spring?q=${encodeURIComponent(episode.title)}`,
+  })),
   ...gintamaEpisodes.map((episode) => ({
     id: `gintama-${episode.number}`,
     work: "銀魂",
@@ -64,6 +75,15 @@ const archiveEpisodes: ArchiveEpisode[] = [
 const archivedWorks = new Set(archiveEpisodes.map((episode) => episode.work));
 
 const collections = [
+  {
+    kicker: "PAST SEASON · FIRST COLLECTION",
+    title: "2026年春アニメ",
+    description: "公式各話紹介をもとに、タイトル・あらすじ・明記された人物を収録。第1弾から順次拡張中です。",
+    count: `${springEpisodes.length}話・${springWorks.length}作品`,
+    href: "/season/2026-spring",
+    accent: "spring",
+    tags: springWorks,
+  },
   {
     kicker: "CURRENT SEASON",
     title: "2026年夏アニメ",
@@ -203,8 +223,8 @@ export default function AnimeArchive() {
       </section>
 
       <section className={styles.policy}>
-        <div><small>NEXT COLLECTION</small><h2>次は2026年春アニメから。</h2></div>
-        <p>作品名・話数・サブタイトル・あらすじ・登場人物を、確認できる番組情報や公式情報に基づいて追加します。情報が確認できない項目は推測で埋めません。</p>
+        <div><small>NEXT COLLECTION</small><h2>次は2026年冬アニメへ。</h2></div>
+        <p>2026年春アニメは公式の各話情報を確認できた作品から追加を開始しました。春の作品を増やしながら、冬アニメへさかのぼります。情報が確認できない項目は推測で埋めません。</p>
       </section>
 
       <footer className={styles.footer}>

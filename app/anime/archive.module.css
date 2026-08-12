@@ -223,6 +223,7 @@
 .collectionCard > strong { margin-top: auto; font-size: 14px; }
 
 .summer { background: linear-gradient(145deg, #dff4fb, #f4fcf8); }
+.spring { background: linear-gradient(145deg, #f5efca, #fff8e7 56%, #edf8e4); }
 .gintama { background: linear-gradient(145deg, #fff0db, #fffaf0); }
 .bleach { background: linear-gradient(145deg, #edf0f5, #fafafa); }
 
