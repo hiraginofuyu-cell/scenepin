@@ -1,0 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "2026年春アニメ 各話アーカイブ | ScenePin",
+  description: "2026年春アニメの各話を、作品名・話数・サブタイトル・あらすじ・登場人物から検索できます。",
+};
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return children;
+}
