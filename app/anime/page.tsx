@@ -5,7 +5,7 @@ import { FormEvent, useMemo, useState } from "react";
 import { bleachEpisodes } from "../works/bleach/data";
 import { gintamaEpisodes } from "../works/gintama/data";
 import { currentEpisodes, currentWorks } from "../season/2026-summer/data";
-import { springEpisodes, springWorks } from "../season/2026-spring/data";
+import { springCatalog, springEpisodes, springWorks } from "../season/2026-spring/data";
 import styles from "./archive.module.css";
 
 type ArchiveEpisode = {
@@ -17,6 +17,7 @@ type ArchiveEpisode = {
   people: string[];
   keywords: string[];
   href: string;
+  kind?: "work";
 };
 
 const archiveEpisodes: ArchiveEpisode[] = [
@@ -72,14 +73,27 @@ const archiveEpisodes: ArchiveEpisode[] = [
   })),
 ];
 
-const archivedWorks = new Set(archiveEpisodes.map((episode) => episode.work));
+const springCatalogEntries: ArchiveEpisode[] = springCatalog.map((item, index) => ({
+  id: `spring-catalog-${index}`,
+  work: item.title,
+  label: "作品カタログ",
+  title: "2026年春 放送・配信作品",
+  period: item.period,
+  people: [],
+  keywords: ["2026年春", "春アニメ", "新作", "新シリーズ"],
+  href: `/season/2026-spring?q=${encodeURIComponent(item.title)}`,
+  kind: "work",
+}));
+
+const archiveSearchEntries = [...archiveEpisodes, ...springCatalogEntries];
+const archivedWorks = new Set(archiveSearchEntries.map((episode) => episode.work));
 
 const collections = [
   {
     kicker: "PAST SEASON · FIRST COLLECTION",
     title: "2026年春アニメ",
-    description: "公式各話紹介をもとに、タイトル・あらすじ・明記された人物を収録。確認できた作品を順次拡張中です。",
-    count: `${springEpisodes.length}話・${springWorks.length}作品`,
+    description: "新作・新シリーズを全件一覧化。公式各話紹介を確認できた作品は、あらすじと明記された人物まで収録。",
+    count: `${springCatalog.length}作品・${springEpisodes.length}話`,
     href: "/season/2026-spring",
     accent: "spring",
     tags: springWorks,
@@ -121,7 +135,7 @@ export default function AnimeArchive() {
     const terms = activeQuery.trim().toLowerCase().split(/\s+/).filter(Boolean);
     if (!terms.length) return [];
 
-    return archiveEpisodes.filter((episode) => {
+    return archiveSearchEntries.filter((episode) => {
       const text = [
         episode.work,
         episode.label,
@@ -189,7 +203,7 @@ export default function AnimeArchive() {
                   <p>{episode.label}</p>
                   <h3>{episode.title}</h3>
                   {!!episode.people.length && <small>{episode.people.slice(0, 4).join(" · ")}</small>}
-                  <b>各話を見る →</b>
+                  <b>{episode.kind === "work" ? "シーズン一覧へ →" : "各話を見る →"}</b>
                 </Link>
               ))}
             </div>
@@ -224,7 +238,7 @@ export default function AnimeArchive() {
 
       <section className={styles.policy}>
         <div><small>NEXT COLLECTION</small><h2>次は2026年冬アニメへ。</h2></div>
-        <p>2026年春アニメは公式の各話情報を確認できた作品から追加を開始しました。春の作品を増やしながら、冬アニメへさかのぼります。情報が確認できない項目は推測で埋めません。</p>
+        <p>2026年春アニメは新作・新シリーズの全作品カタログを収録しました。各話は公式情報を確認できた作品から深掘りし、情報が確認できない項目は推測で埋めません。</p>
       </section>
 
       <footer className={styles.footer}>

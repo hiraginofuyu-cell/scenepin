@@ -6,7 +6,7 @@ import { bleachEpisodes } from "../works/bleach/data";
 import { gintamaEpisodes } from "../works/gintama/data";
 import { broadcasts } from "../works/wednesday-downtown/2025/data";
 import { currentEpisodes } from "../season/2026-summer/data";
-import { springEpisodes } from "../season/2026-spring/data";
+import { springCatalog, springEpisodes } from "../season/2026-spring/data";
 import { currentPrograms } from "../current/data";
 import styles from "./search.module.css";
 
@@ -44,6 +44,17 @@ const items: SearchItem[] = [
     keywords:[episode.summary,...(episode.keywords || []),episode.reaction.overview || "",episode.reaction.divided || "",...(episode.reaction.themes || []),...episode.reaction.history.flatMap((snapshot) => [snapshot.overview,snapshot.divided || "",...snapshot.themes]),"今期アニメ","2026年夏"].filter(Boolean),
     group:"2026年夏アニメ",
     href:`/season/2026-summer?q=${encodeURIComponent(episode.title)}`,
+  })),
+  ...springCatalog.map((item, index) => ({
+    id: `spring-catalog-${index}`,
+    work: item.title,
+    category: "アニメ",
+    label: "作品カタログ",
+    title: "2026年春 放送・配信作品",
+    people: [],
+    keywords: ["2026年春", "春アニメ", "新作", "新シリーズ"],
+    group: "2026年春アニメ",
+    href: `/season/2026-spring?q=${encodeURIComponent(item.title)}`,
   })),
   ...springEpisodes.map((episode, index) => ({
     id: `spring-2026-${index}`,
