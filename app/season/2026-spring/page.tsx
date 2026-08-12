@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import { springEpisodes, springWorks } from "./data";
+import { springCatalog, springEpisodes, springWorks } from "./data";
 import styles from "../../works/bleach/archive.module.css";
+import catalogStyles from "./spring.module.css";
 
 export default function SpringSeason() {
   const [query, setQuery] = useState("");
@@ -27,6 +28,17 @@ export default function SpringSeason() {
       characters: [...new Set(episodes.flatMap((episode) => episode.characters))].slice(0, 3),
     };
   }), []);
+
+  const filteredCatalog = useMemo(() => {
+    const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    return springCatalog.filter((item) => terms.every((term) => [
+      item.title,
+      item.period,
+      "春アニメ",
+      "新作",
+      "新シリーズ",
+    ].join(" ").toLowerCase().includes(term)));
+  }, [query]);
 
   const characters = useMemo(
     () => [...new Set(springEpisodes
@@ -83,18 +95,43 @@ export default function SpringSeason() {
         <div>
           <Link href="/anime" className={styles.back}>← アニメアーカイブへ</Link>
           <p>PAST ANIME · 2026 SPRING</p>
-          <h1>2026年春アニメ<br /><span>各話アーカイブ</span></h1>
-          <p className={styles.lead}>公式の各話紹介で確認できたタイトル・あらすじ・登場人物を、作品ごとに追加しています。</p>
+          <h1>2026年春アニメ<br /><span>全作品カタログ</span></h1>
+          <p className={styles.lead}>春クールの新作・新シリーズを一覧化。公式の各話紹介を確認できた作品は、タイトル・あらすじ・登場人物まで収録しています。</p>
         </div>
         <div className={styles.stats}>
-          <strong>{springEpisodes.length}</strong><span>EPISODES</span>
-          <b>{springWorks.length}作品・第2弾</b><small>公式各話紹介を確認して追加</small>
+          <strong>{springCatalog.length}</strong><span>TITLES</span>
+          <b>{springEpisodes.length}話・{springWorks.length}作品は各話収録済み</b><small>再放送・リマスター・単発特番を除外</small>
         </div>
+      </section>
+
+      <section className={catalogStyles.catalog} aria-labelledby="catalog-title">
+        <div className={catalogStyles.heading}>
+          <div><p>COMPLETE SEASON INDEX</p><h2 id="catalog-title">2026年春の新作・新シリーズ 全{springCatalog.length}作品</h2></div>
+          <span>{filteredCatalog.length}作品を表示</span>
+        </div>
+        <div className={catalogStyles.grid}>
+          {filteredCatalog.map((item) => {
+            const archived = springWorks.includes(item.title);
+            return (
+              <article key={item.title} className={archived ? catalogStyles.archived : ""}>
+                <small>{archived ? "EPISODES READY" : "SEASON CATALOG"}</small>
+                <h3>{item.title}</h3>
+                <p>{archived ? "各話タイトル・あらすじ・人物を収録済み" : "2026年春の放送・配信作品として掲載"}</p>
+                {archived ? (
+                  <button type="button" onClick={() => chooseWork(item.title)}>各話を見る →</button>
+                ) : (
+                  <a href={item.sourceUrl} target="_blank" rel="noreferrer">掲載元を確認 ↗</a>
+                )}
+              </article>
+            );
+          })}
+        </div>
+        {!filteredCatalog.length && <div className={catalogStyles.noResults}>一致する春アニメがありません。短い作品名で試してください。</div>}
       </section>
 
       <section className={styles.workBrowser} aria-labelledby="spring-title">
         <div className={styles.workBrowserHeading}>
-          <div><p>SELECT A TITLE</p><h2 id="spring-title">アニメタイトルから探す</h2></div>
+          <div><p>EPISODE ARCHIVE</p><h2 id="spring-title">各話まで収録済みの作品</h2></div>
           {work !== "すべて" && <button type="button" onClick={() => chooseWork("すべて")}>← 全作品へ戻る</button>}
         </div>
         <div className={styles.workGrid}>
@@ -113,7 +150,7 @@ export default function SpringSeason() {
       <section className={styles.controls}>
         <div className={styles.search}>
           <span aria-hidden="true" />
-          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="話数・タイトル・人物・あらすじで検索" />
+          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="作品名・話数・人物・あらすじで春アニメを検索" />
           {query && <button onClick={() => setQuery("")}>×</button>}
         </div>
         <div className={styles.filters}>
@@ -158,16 +195,17 @@ export default function SpringSeason() {
         ))}
         {!rows.length && (
           <div className={styles.empty}>
-            <h2>一致する話がありません</h2>
-            <p>短い言葉にするか、条件をリセットしてみてください。</p>
+            <h2>{query && filteredCatalog.length ? "この作品の各話データは準備中です" : "一致する話がありません"}</h2>
+            <p>{query && filteredCatalog.length ? "作品は春アニメ一覧へ掲載済みです。公式の各話情報を確認できたものから追加します。" : "短い言葉にするか、条件をリセットしてみてください。"}</p>
             <button onClick={reset}>すべて表示</button>
           </div>
         )}
       </section>
 
       <section className={styles.tagBrowser}>
-        <p>確認元：<a href="https://4seasons-anime.com/episode/" target="_blank" rel="noreferrer">『春夏秋冬代行者』公式 各話紹介</a> · <a href="https://4seasons-anime.com/onair/" target="_blank" rel="noreferrer">同 放送情報</a> · <a href="https://you-zitsu.com/story.html" target="_blank" rel="noreferrer">『よう実』公式 STORY</a> · <a href="https://you-zitsu.com/onair.html" target="_blank" rel="noreferrer">同 ON AIR</a></p>
-        <small>あらすじは公式の各話紹介を短く言い換えています。登場人物は各話紹介に名前が明記された人物だけを登録し、推測で補っていません。</small>
+        <p>作品一覧の確認元：<a href="https://www.animatetimes.com/tag/details.php?id=5228" target="_blank" rel="noreferrer">アニメイトタイムズ 2026春アニメ一覧</a> · <a href="https://anime.eiga.com/program/season/2026-spring/" target="_blank" rel="noreferrer">アニメハック 2026年春アニメ</a></p>
+        <p>各話の確認元：<a href="https://4seasons-anime.com/episode/" target="_blank" rel="noreferrer">『春夏秋冬代行者』公式 各話紹介</a> · <a href="https://you-zitsu.com/story.html" target="_blank" rel="noreferrer">『よう実』公式 STORY</a></p>
+        <small>シーズン一覧は新作・新シリーズを対象とし、再放送・リマスター・単発特番を除外しています。あらすじは公式の各話紹介を短く言い換え、人物名は明記された場合だけ登録しています。</small>
       </section>
     </main>
   );
