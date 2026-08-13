@@ -149,6 +149,12 @@ const baseEpisodes:EpisodeInput[]=[
  {work:"メビウス・ダスト",episode:"第6話",title:"シン・シンコイワ",airtime:"8月13日 23:30",summary:"新小岩商店街の祭りで福男に選ばれたしっぽまりもが逃亡する。緋狼が捜索へ乗り出す一方、まりもを推すアラキは能力を使って逃亡に協力する。",keywords:["新小岩商店街","祭り","福男","しっぽまりも","逃亡","緋狼","アラキ"],sourceUrls:["https://bangumi.org/tv_events/Al8lw4Y1QAM?overwrite_area=23"]},
 
 
+ {work:"骸骨騎士様、只今異世界へお出掛け中Ⅱ",episode:"第6話",title:"竜王の泉に浮かぶは異世界（このよ）の理（ことわり）",airtime:"8月14日 0:00",summary:"龍冠樹へたどり着いたアークは巨大な鳥居に驚き、アリアンを残して転移する。転移先で竜王ウィリアースフィムを踏みつけてしまい、攻撃を受ける。",keywords:["龍冠樹","巨大な鳥居","転移","竜王ウィリアースフィム"],sourceUrls:["https://bangumi.org/tv_events/Al81w4Y1wAM?overwrite_area=23"]},
+ {work:"ヤニねこ",episode:"第7話",title:"ニャーも親から生まれたにゃ",airtime:"8月14日 0:30",summary:"汚部屋で眠ったヤニねこが偶然魔法陣を作り、ニコチンの悪魔を召喚する。悪魔にも呆れられたヤニねこは怪しい清掃バイトへ向かい、台風で住まいを失ったペンペンねこは大家に招かれるが災難に遭う。",keywords:["ニコチンの悪魔","怪しい清掃バイト","ペンペンねこ","大家","台風"],sourceUrls:["https://bangumi.org/tv_events/Al81w4Y0wAM?overwrite_area=23"]},
+ {work:"スーパーの裏でヤニ吸うふたり",episode:"第6話",title:"スーパーの裏に残る匂い",airtime:"8月13日 23:56",summary:"健康診断をきっかけに佐々木は禁煙の可能性を意識し、習慣になった田山との時間が最後になるかもしれないと考える。二人はいつになく真剣な表情を見せる。",keywords:["健康診断","禁煙","スーパーの裏","田山との時間"],sourceUrls:["https://bangumi.org/tv_events/Al8gQYuBgAM?overwrite_area=23"]},
+ {work:"追放された転生重騎士はゲーム知識で無双する",episode:"第7話",title:"成金ラーナ狩り",airtime:"8月14日 0:26",summary:"パッチワークベアを倒してレベルを上げたエルマたちの前に、ボーナスモンスターの成金ラーナが現れる。素早さと防御力が高く希少品を落とす相手へ、エルマとルーチェが知恵と運を武器に挑む。",keywords:["パッチワークベア","成金ラーナ","ボーナスモンスター","知恵と運"],sourceUrls:["https://bangumi.org/tv_events/Al8wQYuBkAM?overwrite_area=23"]},
+
+
 ];
 const episodeCharacters:Record<string,string[]>={
  "MAO|第18話":["摩緒","黄葉菜花"],
@@ -262,6 +268,12 @@ const episodeCharacters:Record<string,string[]>={
  "令和のダラさん|第7話":["佐恵子","ダラさん","日向","薫"],
  "バンドリ！ ゆめ∞みた|第9話":["仲町あられ","宮永ののか","峰月律","藤都子","千石ユノ","マネージャー","ビオラ","ベル","ポポ"],
  "メビウス・ダスト|第6話":["アラキ","ステラ","オルガ","ショウセイ","カイ","ハルト","クルス","スピカ","湯田博士"],
+
+
+ "骸骨騎士様、只今異世界へお出掛け中Ⅱ|第6話":["アーク","アリアン","ポンタ","チヨメ","ウィリアースフィム","サスケ","ツボネ","タナトス","パルルモ","バルトード","ダンカ","イビン","ディラン","グレニス","ゴエモン","ユリアーナ"],
+ "ヤニねこ|第7話":["ヤニねこ","ニコチンの悪魔","ペンペンねこ","大家"],
+ "スーパーの裏でヤニ吸うふたり|第6話":["佐々木","山田／田山","後藤","大野","小畑","前澤","鈴木"],
+ "追放された転生重騎士はゲーム知識で無双する|第7話":["エルマ・エドヴァン","ルーチェ・ルービス","マリス・エドヴァン"],
 
 
 };
@@ -1472,6 +1484,68 @@ const episodeReactions:Record<string,SocialReaction>={
   history:[],
   sampleSize:0,
   collectedAt:"2026-08-14T01:41:20+09:00",
+  overview:"公開検索で対象回の感想を確認できませんでした。",
+  themes:[],
+  divided:"",
+  sourceUrls:[],
+ },
+
+
+ "骸骨騎士様、只今異世界へお出掛け中Ⅱ|第6話":{
+  status:"insufficient",
+  window:"放送終了約2時間後",
+  history:[],
+  sampleSize:0,
+  collectedAt:"2026-08-14T02:39:14+09:00",
+  overview:"公開検索で対象回の感想を確認できませんでした。",
+  themes:[],
+  divided:"",
+  sourceUrls:[],
+ },
+ "ヤニねこ|第7話":{
+  status:"ready",
+  window:"放送終了約2時間後",
+  history:[{
+   stage:"2時間後",
+   collectedAt:"2026-08-14T02:39:14+09:00",
+   sampleSize:5,
+   overview:"複数の公開感想では、途切れなく続くギャグや笑いどころを楽しむ反応が共通していた。母・静江を含む家族像や父親への関心、配信先による表現規制の違いにも注目が集まっていた。",
+   themes:["密度の高いギャグと笑い","母・静江と家族像への関心","配信先による表現規制の違い"],
+   divided:"",
+   sourceUrls:["https://search.yahoo.co.jp/realtime/search?ei=UTF-8&p=%23%E3%83%A4%E3%83%8B%E3%81%AD%E3%81%93&rkf=1"],
+  }],
+  sampleSize:5,
+  collectedAt:"2026-08-14T02:39:14+09:00",
+  overview:"複数の公開感想では、途切れなく続くギャグや笑いどころを楽しむ反応が共通していた。母・静江を含む家族像や父親への関心、配信先による表現規制の違いにも注目が集まっていた。",
+  themes:["密度の高いギャグと笑い","母・静江と家族像への関心","配信先による表現規制の違い"],
+  divided:"",
+  sourceUrls:["https://search.yahoo.co.jp/realtime/search?ei=UTF-8&p=%23%E3%83%A4%E3%83%8B%E3%81%AD%E3%81%93&rkf=1"],
+ },
+ "スーパーの裏でヤニ吸うふたり|第6話":{
+  status:"limited",
+  window:"放送終了約2時間後",
+  history:[{
+   stage:"2時間後",
+   collectedAt:"2026-08-14T02:39:14+09:00",
+   sampleSize:1,
+   overview:"少数の公開感想では、健康診断を題材にした回を受け、職場の健康診断にまつわる個人的な考えを重ねる反応を確認できた。",
+   themes:["健康診断をめぐる個人的な受け止め"],
+   divided:"",
+   sourceUrls:["https://x.com/DR_Kotobuki999/status/2087923839204528412"],
+  }],
+  sampleSize:1,
+  collectedAt:"2026-08-14T02:39:14+09:00",
+  overview:"少数の公開感想では、健康診断を題材にした回を受け、職場の健康診断にまつわる個人的な考えを重ねる反応を確認できた。",
+  themes:["健康診断をめぐる個人的な受け止め"],
+  divided:"",
+  sourceUrls:["https://x.com/DR_Kotobuki999/status/2087923839204528412"],
+ },
+ "追放された転生重騎士はゲーム知識で無双する|第7話":{
+  status:"insufficient",
+  window:"放送終了約2時間後",
+  history:[],
+  sampleSize:0,
+  collectedAt:"2026-08-14T02:39:14+09:00",
   overview:"公開検索で対象回の感想を確認できませんでした。",
   themes:[],
   divided:"",
