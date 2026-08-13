@@ -156,7 +156,11 @@ const baseEpisodes:EpisodeInput[]=[
 
 
  {work:"乙女怪獣キャラメリゼ",episode:"第7話",title:"狙われた新汰",airtime:"8月14日 1:28",summary:"ハルゴンとのキス動画が広まり「怪獣王子」と呼ばれて注目される新汰は、騒ぎが落ち着くまで黒絵と距離を置こうとする。しかし会いたい気持ちは止められず、ある作戦を思いつく。",keywords:["ハルゴンとのキス動画","怪獣王子","新汰","黒絵","距離を置く","会うための作戦"],sourceUrls:["https://bangumi.org/tv_events/Al8wQYuBwAM?overwrite_area=23"]},
-
+ {work:"逃げ上手の若君 第二期",episode:"第5話",title:"負けざる者たち",airtime:"8月14日 23:30",summary:"「中」の戦場で優勢に立つ保科・四宮軍の前に、清原が考案した重装甲の戦闘神輿が立ちはだかる。伝令役の時行は、情報と軍略が入り乱れる防衛戦の最終局面で不穏な気配を察する。",keywords:["中の戦場","戦闘神輿","清原の奇策","防衛戦の最終局面","不穏な気配"],sourceUrls:["https://bangumi.org/tv_events/Al8wQg8HkAM?overwrite_area=23"]},
+ {work:"領民0人スタートの辺境領主様",episode:"第6話",title:"辺境領主様と双子の祈り",airtime:"8月14日 22:30",summary:"セナイとアイハンは、倉庫に閉じ込められていた鼠人族のエイマを救い出す。作物が育たない問題を解決できる秘密を打ち明けた二人は、エイマの提案で、皆が眠る夜中にディアスたちをこっそり手助けする。",keywords:["鼠人族のエイマ","双子の秘密","作物が育たない問題","夜中の手助け"],sourceUrls:["https://bangumi.org/tv_events/Al81w4Y_QAM?overwrite_area=23"]},
+ {work:"うちの弟どもがすみません",episode:"第7話",title:"弟が王子様？",airtime:"8月15日 0:00",summary:"夏休み、弟たちの計画で里帰りした糸は、家族の思いやりに感激しながら地元を満喫する。幼なじみのメグが「糸の彼氏にするなら源」と話したことをきっかけに、糸は源の一挙一動を意識し始める。",keywords:["夏休みの里帰り","家族の思いやり","幼なじみのメグ","源を意識"],sourceUrls:["https://bangumi.org/tv_events/Al9Fw4Y-4AM?overwrite_area=23"]},
+ {work:"ヘルモード 〜やり込み好きのゲーマーは廃設定の異世界で無双する〜",episode:"第19話",title:"ローゼンヘイムへ",airtime:"8月15日 1:00",summary:"魔王軍が大陸間の協力関係を崩すため侵攻を開始。アレンたちは要地ローゼンヘイムへ向かい、避難所の町ネストで救護と情報収集を進める中、ソフィーの母である女王が最前線ティアモにいると知る。",keywords:["魔王軍の侵攻","ローゼンヘイム","避難所ネスト","救護と情報収集","最前線ティアモ"],sourceUrls:["https://bangumi.org/tv_events/Al9Fw4Y_AAM?overwrite_area=23"]},
+ {work:"うしろの正面カムイさん",episode:"第7話",title:"トイレの花子さん",airtime:"8月15日 1:30",summary:"全国の小学校に巣くうトイレの花子さんを一斉除霊する活動に、カムイとシヅカが参加する。仲間が次々と除霊される中、全国の花子さんは山奥の廃校に集い、起死回生の策を企てる。",keywords:["トイレの花子さん","一斉除霊","山奥の廃校","起死回生の策"],sourceUrls:["https://bangumi.org/tv_events/Al9Fw4Y-oAM?overwrite_area=23"]},
 
 ];
 const episodeCharacters:Record<string,string[]>={
@@ -282,6 +286,11 @@ const episodeCharacters:Record<string,string[]>={
  "乙女怪獣キャラメリゼ|第7話":["赤石黒絵","南新汰","友里真夏","河野来夢","赤石凛子","響野光太郎","ジャンボキング"],
 
 
+ "逃げ上手の若君 第二期|第5話":["保科","四宮","清原","時行"],
+ "領民0人スタートの辺境領主様|第6話":["セナイ","アイハン","エイマ","ディアス"],
+ "うちの弟どもがすみません|第7話":["糸","メグ","源"],
+ "ヘルモード 〜やり込み好きのゲーマーは廃設定の異世界で無双する〜|第19話":["アレン","ソフィー"],
+ "うしろの正面カムイさん|第7話":["トイレの花子さん","カムイ","シヅカ"],
 };
 const episodeReactions:Record<string,SocialReaction>={
  "いびってこない義母と義姉|第5話":{
