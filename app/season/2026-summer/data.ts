@@ -145,6 +145,9 @@ const baseEpisodes:EpisodeInput[]=[
  {work:"文豪ストレイドッグス わん！2",episode:"第7話",title:"第7わん！",airtime:"8月13日 21:40",summary:"敦、太宰、賢治と、探偵社へお遣いに来た芥川・中也が、とあるゲームに興じる。最初は他愛ない遊びだったが、プレイヤーたちは次第に深い闇へ引きずり込まれていく。",sourceUrls:["https://bangumi.org/tv_events/Al8gFN0-gAI"]},
  {work:"ワールド イズ ダンシング",episode:"第7話",title:"狭間にて",airtime:"8月13日 22:00",summary:"徳さんが罪人として処されることを意味する湯起請にかけられ、鬼夜叉とコガネがそれぞれ徳さんを助けようと奮闘する。",keywords:["湯起請","徳さん","鬼夜叉","コガネ","狭間にて"],sourceUrls:["https://bangumi.org/tv_events/Al8lw4Y14AM?overwrite_area=23"]},
  {work:"令和のダラさん",episode:"第7話",title:"在りし日の紙芝居",airtime:"8月13日 22:30",summary:"佐恵子の来訪をきっかけに、ダラさんは平尋神社が自身に関わる場所だと考える。日向、薫と神社を訪れ、御神体を確かめるため本殿の奥へ進む。",keywords:["佐恵子","平尋神社","御神体","本殿","在りし日の紙芝居"],sourceUrls:["https://bangumi.org/tv_events/Al8lw4Y1gAM?overwrite_area=23"]},
+ {work:"バンドリ！ ゆめ∞みた",episode:"第9話",title:"かいさん",airtime:"8月13日 23:00",summary:"ひとりは離れ、ひとりは踏ん張り、ひとりは踏み出し、ひとりは立ち止まる。もうひとりはまだ何も選べず、5人は戻れないかもしれない局面を迎える。",keywords:["離れる","踏ん張る","踏み出す","立ち止まる","選べない","かいさん"],sourceUrls:["https://bangumi.org/tv_events/Al8lw4Y1YAM?overwrite_area=23"]},
+ {work:"メビウス・ダスト",episode:"第6話",title:"シン・シンコイワ",airtime:"8月13日 23:30",summary:"新小岩商店街の祭りで福男に選ばれたしっぽまりもが逃亡する。緋狼が捜索へ乗り出す一方、まりもを推すアラキは能力を使って逃亡に協力する。",keywords:["新小岩商店街","祭り","福男","しっぽまりも","逃亡","緋狼","アラキ"],sourceUrls:["https://bangumi.org/tv_events/Al8lw4Y1QAM?overwrite_area=23"]},
+
 
 ];
 const episodeCharacters:Record<string,string[]>={
@@ -257,6 +260,9 @@ const episodeCharacters:Record<string,string[]>={
  "盗掘王|第6話":["遼河","大河原","カラス"],
  "ワールド イズ ダンシング|第7話":["徳さん","鬼夜叉","コガネ"],
  "令和のダラさん|第7話":["佐恵子","ダラさん","日向","薫"],
+ "バンドリ！ ゆめ∞みた|第9話":["仲町あられ","宮永ののか","峰月律","藤都子","千石ユノ","マネージャー","ビオラ","ベル","ポポ"],
+ "メビウス・ダスト|第6話":["アラキ","ステラ","オルガ","ショウセイ","カイ","ハルト","クルス","スピカ","湯田博士"],
+
 
 };
 const episodeReactions:Record<string,SocialReaction>={
@@ -1448,6 +1454,30 @@ const episodeReactions:Record<string,SocialReaction>={
   divided:"",
   sourceUrls:[],
  },
+ "バンドリ！ ゆめ∞みた|第9話":{
+  status:"insufficient",
+  window:"放送終了約2時間後",
+  history:[],
+  sampleSize:0,
+  collectedAt:"2026-08-14T01:41:20+09:00",
+  overview:"公開検索で対象回の感想を確認できませんでした。",
+  themes:[],
+  divided:"",
+  sourceUrls:[],
+ },
+
+ "メビウス・ダスト|第6話":{
+  status:"insufficient",
+  window:"放送終了約2時間後",
+  history:[],
+  sampleSize:0,
+  collectedAt:"2026-08-14T01:41:20+09:00",
+  overview:"公開検索で対象回の感想を確認できませんでした。",
+  themes:[],
+  divided:"",
+  sourceUrls:[],
+ },
+
 
 };
 export const currentEpisodes:CurrentEpisode[]=baseEpisodes.map(episode=>({
