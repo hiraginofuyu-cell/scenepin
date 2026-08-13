@@ -143,6 +143,9 @@ const baseEpisodes:EpisodeInput[]=[
  {work:"乙女ゲー世界はモブに厳しい世界です2",episode:"第6話",title:"嫌なら俺は逃げるだけです",airtime:"8月13日 1:00",summary:"王国軍が空と海の守護神に圧倒される中、リオンは自ら総司令官に名乗りを上げる。ロストアイテム『王家の船』を使うため、ミレーヌへ協力を求める。",keywords:["空と海の守護神","総司令官","王家の船","ミレーヌへの依頼"],sourceUrls:["https://bangumi.org/tv_events/Al8lw4YsoAM?overwrite_area=23"]},
  {work:"盗掘王",episode:"第6話",title:"第6話",airtime:"8月13日 1:15",summary:"遼河と大河原が直接対決し、大河原は遺物の力で遼河を圧倒する。カラスが他の遺物の目覚めを警告する中、大地震とともに各地へ巨大な墓が出現する。",keywords:["遼河と大河原の対決","遺物の目覚め","カラスの警告","巨大な墓"],sourceUrls:["https://bangumi.org/tv_events/Al8gQg7_gAM?overwrite_area=23"]},
  {work:"文豪ストレイドッグス わん！2",episode:"第7話",title:"第7わん！",airtime:"8月13日 21:40",summary:"敦、太宰、賢治と、探偵社へお遣いに来た芥川・中也が、とあるゲームに興じる。最初は他愛ない遊びだったが、プレイヤーたちは次第に深い闇へ引きずり込まれていく。",sourceUrls:["https://bangumi.org/tv_events/Al8gFN0-gAI"]},
+ {work:"ワールド イズ ダンシング",episode:"第7話",title:"狭間にて",airtime:"8月13日 22:00",summary:"徳さんが罪人として処されることを意味する湯起請にかけられ、鬼夜叉とコガネがそれぞれ徳さんを助けようと奮闘する。",keywords:["湯起請","徳さん","鬼夜叉","コガネ","狭間にて"],sourceUrls:["https://bangumi.org/tv_events/Al8lw4Y14AM?overwrite_area=23"]},
+ {work:"令和のダラさん",episode:"第7話",title:"在りし日の紙芝居",airtime:"8月13日 22:30",summary:"佐恵子の来訪をきっかけに、ダラさんは平尋神社が自身に関わる場所だと考える。日向、薫と神社を訪れ、御神体を確かめるため本殿の奥へ進む。",keywords:["佐恵子","平尋神社","御神体","本殿","在りし日の紙芝居"],sourceUrls:["https://bangumi.org/tv_events/Al8lw4Y1gAM?overwrite_area=23"]},
+
 ];
 const episodeCharacters:Record<string,string[]>={
  "MAO|第18話":["摩緒","黄葉菜花"],
@@ -252,6 +255,9 @@ const episodeCharacters:Record<string,string[]>={
  "サンダー3|第6話":["ふたば","キューちゃん"],
  "乙女ゲー世界はモブに厳しい世界です2|第6話":["リオン","ミレーヌ"],
  "盗掘王|第6話":["遼河","大河原","カラス"],
+ "ワールド イズ ダンシング|第7話":["徳さん","鬼夜叉","コガネ"],
+ "令和のダラさん|第7話":["佐恵子","ダラさん","日向","薫"],
+
 };
 const episodeReactions:Record<string,SocialReaction>={
  "いびってこない義母と義姉|第5話":{
@@ -1400,6 +1406,43 @@ const episodeReactions:Record<string,SocialReaction>={
   history:[],
   sampleSize:0,
   collectedAt:"2026-08-13T23:45:00+09:00",
+  overview:"公開検索で対象回の感想を確認できませんでした。",
+  themes:[],
+  divided:"",
+  sourceUrls:[],
+ },
+
+ "ワールド イズ ダンシング|第7話":{
+  status:"limited",
+  window:"放送終了約2時間後",
+  history:[{
+   stage:"2時間後",
+   collectedAt:"2026-08-14T00:42:19+09:00",
+   sampleSize:2,
+   overview:"少数の公開感想では、義満の強者の論理と、弱い者にも報いのある世を願う鬼夜叉の考えを対比して受け止める反応を確認できた。また、徳さんの処遇を見届ける場面と、周囲へ広がる「なのだ」という言葉に鬼夜叉の影響力を見る感想もあった。",
+   themes:["義満と鬼夜叉の価値観の対比","徳さんの処遇を見届ける鬼夜叉","「なのだ」に表れる鬼夜叉の影響"],
+   divided:"",
+   sourceUrls:[
+    "https://x.com/Yuckieswp9/status/2087103620219334776",
+    "https://x.com/tsuntsuku2/status/2087535731808100569",
+   ],
+  }],
+  sampleSize:2,
+  collectedAt:"2026-08-14T00:42:19+09:00",
+  overview:"少数の公開感想では、義満の強者の論理と、弱い者にも報いのある世を願う鬼夜叉の考えを対比して受け止める反応を確認できた。また、徳さんの処遇を見届ける場面と、周囲へ広がる「なのだ」という言葉に鬼夜叉の影響力を見る感想もあった。",
+  themes:["義満と鬼夜叉の価値観の対比","徳さんの処遇を見届ける鬼夜叉","「なのだ」に表れる鬼夜叉の影響"],
+  divided:"",
+  sourceUrls:[
+   "https://x.com/Yuckieswp9/status/2087103620219334776",
+   "https://x.com/tsuntsuku2/status/2087535731808100569",
+  ],
+ },
+ "令和のダラさん|第7話":{
+  status:"insufficient",
+  window:"放送終了約2時間後",
+  history:[],
+  sampleSize:0,
+  collectedAt:"2026-08-14T00:42:19+09:00",
   overview:"公開検索で対象回の感想を確認できませんでした。",
   themes:[],
   divided:"",
