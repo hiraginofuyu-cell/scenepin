@@ -155,6 +155,9 @@ const baseEpisodes:EpisodeInput[]=[
  {work:"追放された転生重騎士はゲーム知識で無双する",episode:"第7話",title:"成金ラーナ狩り",airtime:"8月14日 0:26",summary:"パッチワークベアを倒してレベルを上げたエルマたちの前に、ボーナスモンスターの成金ラーナが現れる。素早さと防御力が高く希少品を落とす相手へ、エルマとルーチェが知恵と運を武器に挑む。",keywords:["パッチワークベア","成金ラーナ","ボーナスモンスター","知恵と運"],sourceUrls:["https://bangumi.org/tv_events/Al8wQYuBkAM?overwrite_area=23"]},
 
 
+ {work:"乙女怪獣キャラメリゼ",episode:"第7話",title:"狙われた新汰",airtime:"8月14日 1:28",summary:"ハルゴンとのキス動画が広まり「怪獣王子」と呼ばれて注目される新汰は、騒ぎが落ち着くまで黒絵と距離を置こうとする。しかし会いたい気持ちは止められず、ある作戦を思いつく。",keywords:["ハルゴンとのキス動画","怪獣王子","新汰","黒絵","距離を置く","会うための作戦"],sourceUrls:["https://bangumi.org/tv_events/Al8wQYuBwAM?overwrite_area=23"]},
+
+
 ];
 const episodeCharacters:Record<string,string[]>={
  "MAO|第18話":["摩緒","黄葉菜花"],
@@ -274,6 +277,9 @@ const episodeCharacters:Record<string,string[]>={
  "ヤニねこ|第7話":["ヤニねこ","ニコチンの悪魔","ペンペンねこ","大家"],
  "スーパーの裏でヤニ吸うふたり|第6話":["佐々木","山田／田山","後藤","大野","小畑","前澤","鈴木"],
  "追放された転生重騎士はゲーム知識で無双する|第7話":["エルマ・エドヴァン","ルーチェ・ルービス","マリス・エドヴァン"],
+
+
+ "乙女怪獣キャラメリゼ|第7話":["赤石黒絵","南新汰","友里真夏","河野来夢","赤石凛子","響野光太郎","ジャンボキング"],
 
 
 };
@@ -1546,6 +1552,19 @@ const episodeReactions:Record<string,SocialReaction>={
   history:[],
   sampleSize:0,
   collectedAt:"2026-08-14T02:39:14+09:00",
+  overview:"公開検索で対象回の感想を確認できませんでした。",
+  themes:[],
+  divided:"",
+  sourceUrls:[],
+ },
+
+
+ "乙女怪獣キャラメリゼ|第7話":{
+  status:"insufficient",
+  window:"放送終了約2時間後",
+  history:[],
+  sampleSize:0,
+  collectedAt:"2026-08-14T03:39:15+09:00",
   overview:"公開検索で対象回の感想を確認できませんでした。",
   themes:[],
   divided:"",
