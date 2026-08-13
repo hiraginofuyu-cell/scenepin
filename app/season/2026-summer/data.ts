@@ -142,6 +142,7 @@ const baseEpisodes:EpisodeInput[]=[
  {work:"サンダー3",episode:"第6話",title:"第6話",airtime:"8月13日 0:45",summary:"宇宙船に囚われたふたばは、謎の生命体キューちゃんと出会い行動を共にする。一方、地上ではリベリオンによる対異星人のゲリラ戦が始まる。",keywords:["宇宙船","謎の生命体","キューちゃん","対異星人ゲリラ戦"],sourceUrls:["https://bangumi.org/tv_events/Al8gQg7_YAM?overwrite_area=23"]},
  {work:"乙女ゲー世界はモブに厳しい世界です2",episode:"第6話",title:"嫌なら俺は逃げるだけです",airtime:"8月13日 1:00",summary:"王国軍が空と海の守護神に圧倒される中、リオンは自ら総司令官に名乗りを上げる。ロストアイテム『王家の船』を使うため、ミレーヌへ協力を求める。",keywords:["空と海の守護神","総司令官","王家の船","ミレーヌへの依頼"],sourceUrls:["https://bangumi.org/tv_events/Al8lw4YsoAM?overwrite_area=23"]},
  {work:"盗掘王",episode:"第6話",title:"第6話",airtime:"8月13日 1:15",summary:"遼河と大河原が直接対決し、大河原は遺物の力で遼河を圧倒する。カラスが他の遺物の目覚めを警告する中、大地震とともに各地へ巨大な墓が出現する。",keywords:["遼河と大河原の対決","遺物の目覚め","カラスの警告","巨大な墓"],sourceUrls:["https://bangumi.org/tv_events/Al8gQg7_gAM?overwrite_area=23"]},
+ {work:"文豪ストレイドッグス わん！2",episode:"第7話",title:"第7わん！",airtime:"8月13日 21:40",summary:"敦、太宰、賢治と、探偵社へお遣いに来た芥川・中也が、とあるゲームに興じる。最初は他愛ない遊びだったが、プレイヤーたちは次第に深い闇へ引きずり込まれていく。",sourceUrls:["https://bangumi.org/tv_events/Al8gFN0-gAI"]},
 ];
 const episodeCharacters:Record<string,string[]>={
  "MAO|第18話":["摩緒","黄葉菜花"],
@@ -1387,6 +1388,18 @@ const episodeReactions:Record<string,SocialReaction>={
   history:[],
   sampleSize:0,
   collectedAt:"2026-08-13T01:40:50+09:00",
+  overview:"公開検索で対象回の感想を確認できませんでした。",
+  themes:[],
+  divided:"",
+  sourceUrls:[],
+ },
+
+ "文豪ストレイドッグス わん！2|第7話":{
+  status:"insufficient",
+  window:"放送終了約2時間後",
+  history:[],
+  sampleSize:0,
+  collectedAt:"2026-08-13T23:45:00+09:00",
   overview:"公開検索で対象回の感想を確認できませんでした。",
   themes:[],
   divided:"",
