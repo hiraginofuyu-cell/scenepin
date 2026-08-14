@@ -293,6 +293,31 @@ const episodeCharacters:Record<string,string[]>={
  "うしろの正面カムイさん|第7話":["トイレの花子さん","カムイ","シヅカ"],
 };
 const episodeReactions:Record<string,SocialReaction>={
+ "領民0人スタートの辺境領主様|第6話":{
+  status:"limited",
+  window:"放送終了約2時間後",
+  history:[{
+   stage:"2時間後",
+   collectedAt:"2026-08-15T00:36:02+09:00",
+   sampleSize:3,
+   overview:"少数の公開感想では、セナイとアイハンがエイマを助け、農作物が根付くよう陰で力を貸す展開への反応、ディアスの大きな驚き顔を面白がる反応が確認できた。",
+   themes:["双子とエイマの相談・手助け","農作物が根付いた喜び","ディアスの驚き顔によるコメディ"],
+   sourceUrls:[
+    "https://x.com/srx40090/status/2085843628291989906",
+    "https://x.com/asadoramamania/status/2088210356477001825",
+    "https://x.com/kuro_mob/status/2086082228178849922",
+   ],
+  }],
+  sampleSize:3,
+  collectedAt:"2026-08-15T00:36:02+09:00",
+  overview:"少数の公開感想では、セナイとアイハンがエイマを助け、農作物が根付くよう陰で力を貸す展開への反応、ディアスの大きな驚き顔を面白がる反応が確認できた。",
+  themes:["双子とエイマの相談・手助け","農作物が根付いた喜び","ディアスの驚き顔によるコメディ"],
+  sourceUrls:[
+   "https://x.com/srx40090/status/2085843628291989906",
+   "https://x.com/asadoramamania/status/2088210356477001825",
+   "https://x.com/kuro_mob/status/2086082228178849922",
+  ],
+ },
  "いびってこない義母と義姉|第5話":{
   status:"ready",
   window:"放送中〜24時間後",
