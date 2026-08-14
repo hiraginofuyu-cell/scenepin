@@ -162,8 +162,21 @@ const baseEpisodes:EpisodeInput[]=[
  {work:"ヘルモード 〜やり込み好きのゲーマーは廃設定の異世界で無双する〜",episode:"第19話",title:"ローゼンヘイムへ",airtime:"8月15日 1:00",summary:"魔王軍が大陸間の協力関係を崩すため侵攻を開始。アレンたちは要地ローゼンヘイムへ向かい、避難所の町ネストで救護と情報収集を進める中、ソフィーの母である女王が最前線ティアモにいると知る。",keywords:["魔王軍の侵攻","ローゼンヘイム","避難所ネスト","救護と情報収集","最前線ティアモ"],sourceUrls:["https://bangumi.org/tv_events/Al9Fw4Y_AAM?overwrite_area=23"]},
  {work:"うしろの正面カムイさん",episode:"第7話",title:"トイレの花子さん",airtime:"8月15日 1:30",summary:"全国の小学校に巣くうトイレの花子さんを一斉除霊する活動に、カムイとシヅカが参加する。仲間が次々と除霊される中、全国の花子さんは山奥の廃校に集い、起死回生の策を企てる。",keywords:["トイレの花子さん","一斉除霊","山奥の廃校","起死回生の策"],sourceUrls:["https://bangumi.org/tv_events/Al9Fw4Y-oAM?overwrite_area=23"]},
 
+ {work:"猫と竜",episode:"第7話",title:"母猫の帰還",airtime:"8月15日 21:00",summary:"アンネロッサに勧められ、魔法学校に召喚されて以来初めて故郷の「しょしんしゃの森」へ帰る母猫。案内役の街猫・ハイブチと森を目指し、懐かしい洞窟で、森を守り子猫たちの面倒を見る成長した猫竜と再会する。",keywords:["母猫の帰還","しょしんしゃの森","街猫ハイブチ","懐かしい洞窟","成長した猫竜"],sourceUrls:["https://bangumi.org/tv_events/seasons?season_id=997060"]},
+ {work:"BLACK TORCH",episode:"第7話",title:"3 ON THREE",airtime:"8月15日 22:00",summary:"物ノ怪と少年の出会いから始まる「忍」バトルが開幕する。",keywords:["3 ON THREE","物ノ怪と少年","忍バトル"],sourceUrls:["https://bangumi.org/tv_events/seasons?season_id=997057"]},
+ {work:"岩元先輩ノ推薦",episode:"第7話",title:"残響ノ廃音",airtime:"8月15日 22:30",summary:"英国魔女軍団に苦戦する岩元と原町の前に、雨を操る佐々眼流雨が現れる。茨を操るローズマリィとの激闘で佐々眼の過去と能力が明かされる一方、眠り続けていた天羽が目を覚まし、初めて隔離施設を訪れる。",keywords:["英国魔女軍団","雨を操る佐々眼","ローズマリィとの激闘","天羽の目覚め","隔離施設"],sourceUrls:["https://bangumi.org/tv_events/seasons?season_id=997043"]},
+ {work:"BLEACH 千年血戦篇-禍進譚-",episode:"第44話",title:"THE PERFECT CRIMSON",airtime:"8月15日 23:00",summary:"剣八、日番谷、白哉の三人がかりでも、ジェラルドの「奇跡」は崩れない。戦闘本能のまま斬りかかる剣八を、ジェラルドの「希望の剣」が追い詰めていく。",keywords:["剣八・日番谷・白哉","ジェラルドの奇跡","希望の剣","三人がかりの戦い"],sourceUrls:["https://bangumi.org/tv_events/seasons?season_id=751891"]},
+ {work:"黄泉のツガイ",episode:"第19話",title:"刀と弓",airtime:"8月15日 23:30",summary:"謎と怪奇が交錯する新感覚ツガイバトル。息もつかせぬ幻怪ファンタジーが動き始める。",keywords:["刀と弓","ツガイバトル","幻怪ファンタジー"],sourceUrls:["https://bangumi.org/tv_events/seasons?season_id=984380"]},
+ {work:"MAO",episode:"第20話",title:"紗那の心臓",airtime:"8月15日 23:45",summary:"不知火が連れ去った真砂の亡骸を取り返すと誓う華紋。一方、夏野は、幽羅子が放っていた黒い邪気が、900年前に紗那の心臓をつかみ出した邪気と同じだと摩緒たちに語る。",keywords:["真砂の亡骸","華紋の誓い","幽羅子の黒い邪気","紗那の心臓","900年前"],sourceUrls:["https://bangumi.org/tv_events/seasons?season_id=984349"]},
+
 ];
 const episodeCharacters:Record<string,string[]>={
+ "猫と竜|第7話":["アンネロッサ","母猫","ハイブチ","猫竜"],
+ "BLACK TORCH|第7話":[],
+ "岩元先輩ノ推薦|第7話":["岩元","原町","佐々眼流雨","ローズマリィ","天羽"],
+ "BLEACH 千年血戦篇-禍進譚-|第44話":["剣八","日番谷","白哉","ジェラルド"],
+ "黄泉のツガイ|第19話":[],
+ "MAO|第20話":["真砂","華紋","夏野","幽羅子","紗那","摩緒"],
  "MAO|第18話":["摩緒","黄葉菜花"],
  "魔入りました！入間くん 第4シリーズ|第18話":["鈴木入間"],
  "本好きの下剋上 領主の養女|第16話":["ローゼマイン","ダームエル","ブリギッテ"],
