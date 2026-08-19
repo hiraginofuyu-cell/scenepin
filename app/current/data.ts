@@ -11,6 +11,7 @@ export type CurrentProgram = {
 };
 
 export const currentPrograms:CurrentProgram[] = [
+  {work:"ぽかぽか",category:"バラエティ",episode:"8月20日放送",title:"夏特別企画 でんじろう生放送ドキドキ実験SP",airtime:"8月20日 11:47",summary:"音の不思議、ビーチボールの浮遊、アルミ箔を使った科学マジックなどを生放送で紹介し、風船爆弾を使った古今東西企画にも挑む。",people:["岩井勇気","澤部佑","神田愛花","島崎和歌子","佐々木大光","原田葵","米村でんじろう","ギャル曽根"],keywords:["夏特別企画","生放送","音の実験","ビーチボールの浮遊","アルミ箔の科学マジック","風船爆弾"],sourceUrls:["https://bangumi.org/tv_events/seasons?season_id=770855","https://www.fujitv.co.jp/pokapoka/"]},
   {work:"風、薫る",category:"ドラマ",episode:"第94回",title:"第19週 黎明の翼",airtime:"8月6日 7:45",summary:"りん、直美、黒川らの思いが村人に通じる一方、アサの容体は改善せず、厳しい状況が続く。",people:["りん","直美","黒川","アサ"],keywords:["黎明の翼","村人","容体"],sourceUrls:["https://bangumi.org/epg/td?broad_cast_date=20260806&ggm_group_id=42"]},
   {work:"大空港〜GATE24〜",category:"ドラマ",episode:"第3話",title:"確認中",airtime:"8月6日 21:00",summary:"密輸された動物が逃げて審査ブースが封鎖される中、子どもを連れた女性が移動を拒む。万智たちは特別措置で、その場での審査に臨む。",people:["万智"],keywords:["密輸動物","審査ブース封鎖","子ども連れ","特別措置"],sourceUrls:["https://www.tv-asahi.co.jp/daikuukou/","https://post.tv-asahi.co.jp/post-812366/"]},
   {work:"ラストノート",category:"ドラマ",episode:"第5話",title:"確認中",airtime:"8月6日 22:00",summary:"葵は澄晴といる時だけ再び花の香りを感じる。十年以上前から香りが分からなくなった事情を明かすと、澄晴は協力を申し出る。",people:["葵","澄晴"],keywords:["花の香り","嗅覚","十年以上前","協力"],sourceUrls:["https://www.fujitv.co.jp/lastnote/story/"]},
