@@ -451,6 +451,27 @@ const getArc = (number: number) => {
 };
 
 const verifiedEpisodeDetails:Record<number,Pick<BleachEpisode,"summary"|"scenes"|"sourceUrls"|"characters"|"keywords">> = {
+  54: {
+    summary:"ルキアの処刑が始まり、双殛が解放される。過去の記憶をたどりながら覚悟を決めるルキアへ、真の姿を現した燬鷇王が迫る。",
+    scenes:["双殛の解放","処刑台で過去を思い返すルキア","燬鷇王がルキアへ迫る"],
+    sourceUrls:["https://www.tv-tokyo.co.jp/anime/bleach_bestbout/episodes/"],
+    characters:["朽木ルキア","阿散井恋次","志波海燕","黒崎一護"],
+    keywords:["双殛","処刑","燬鷇王","ルキア奪還","過去の記憶"],
+  },
+  58: {
+    summary:"月牙天衝で千本桜を退けた一護は、白哉に卍解で戦うよう迫る。千本桜景厳を受けて傷つきながらも立ち上がり、一護は斬月の卍解を解放する。",
+    scenes:["月牙天衝で千本桜を叩き落とす","白哉の千本桜景厳","一護が斬月の卍解を解放"],
+    sourceUrls:["https://www.tv-tokyo.co.jp/anime/bleach_bestbout/episodes/","https://www.hulu.jp/watch/100044795"],
+    characters:["黒崎一護","朽木白哉"],
+    keywords:["月牙天衝","千本桜景厳","卍解","斬月","黒き刃"],
+  },
+  59: {
+    summary:"天鎖斬月の攻撃を受けた白哉は、千本桜の真の姿・殲景を発動する。互角の攻防から一護は蓄積した傷で次第に動きが鈍り、絶体絶命へ追い込まれる。",
+    scenes:["天鎖斬月と白哉の攻防","千本桜の殲景","傷を負った一護が追い詰められる"],
+    sourceUrls:["https://www.tv-tokyo.co.jp/anime/bleach_bestbout/episodes/","https://www.hulu.jp/watch/100044796"],
+    characters:["黒崎一護","朽木白哉"],
+    keywords:["天鎖斬月","千本桜","殲景","死闘決着","白き誇り"],
+  },
   1: {
     summary:"霊が見える高校生・黒崎一護は、悪霊・虚に襲われた少女を助けようとする。死神・朽木ルキアと出会い、家族を守るため彼女の死神の力を受け取る。",
     scenes:["一護とルキアの初対面","死神の力の譲渡","家族を襲う虚との戦い"],
