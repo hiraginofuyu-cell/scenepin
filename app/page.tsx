@@ -237,6 +237,9 @@ export default function Home() {
           <a href="#ranking">
             <span className="nav-icon coral">★</span>ランキング
           </a>
+          <a href="/ai-studio">
+            <span className="nav-icon mint">AI</span>AI編集部
+          </a>
         </nav>
       </header>
 
