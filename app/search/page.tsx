@@ -2,12 +2,13 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
+import { currentPrograms } from "../current/data";
+import { currentEpisodes } from "../season/2026-summer/data";
+import { springCatalog, springEpisodes } from "../season/2026-spring/data";
 import { bleachEpisodes } from "../works/bleach/data";
 import { gintamaEpisodes } from "../works/gintama/data";
 import { broadcasts } from "../works/wednesday-downtown/2025/data";
-import { currentEpisodes } from "../season/2026-summer/data";
-import { springCatalog, springEpisodes } from "../season/2026-spring/data";
-import { currentPrograms } from "../current/data";
+import { rankSearchItems } from "./search-intelligence";
 import styles from "./search.module.css";
 
 type SearchItem = {
@@ -118,31 +119,35 @@ export default function GlobalSearch() {
     if (initial) setQuery(initial);
   }, []);
 
-  const results = useMemo(() => {
-    const terms = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
-    return items.filter((item) => {
-      const haystack = [item.work, item.label, item.title, item.group, ...item.people, ...item.keywords]
-        .join(" ").toLowerCase();
-      return terms.every((term) => haystack.includes(term))
-        && (work === "すべて" || item.work === work)
-        && (person === "すべて" || item.people.includes(person));
-    });
-  }, [query, work, person]);
+  const semanticSearch = useMemo(() => rankSearchItems(items, query), [query]);
+  const results = useMemo(() => semanticSearch.matches.filter(({ item }) =>
+    (work === "すべて" || item.work === work)
+      && (person === "すべて" || item.people.includes(person)),
+  ), [semanticSearch, work, person]);
 
   return (
     <main className={styles.page}>
-      <header><Link href="/">← ScenePin</Link><b>全作品キーワード検索</b><Link href="/anime">アニメ一覧</Link></header>
+      <header><Link href="/">← ScenePin</Link><b>全作品意味検索</b><Link href="/anime">アニメ一覧</Link></header>
       <section className={styles.hero}>
-        <p>SEARCH EVERY SCENE</p>
-        <h1>覚えている言葉から、<br /><span>何話か見つける。</span></h1>
+        <p>SEARCH EVERY SCENE · MEANING ASSIST</p>
+        <h1>うろ覚えの説明から、<br /><span>何話か見つける。</span></h1>
         <div className={styles.search}>
           <input
             autoFocus
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="作品名・人物・セリフ・技・企画名など"
+            placeholder="例：一護が深い穴に落とされた回"
           />
           <b>{results.length}件</b>
+        </div>
+        <div className={styles.assist} aria-live="polite">
+          <b>意味検索AI β</b>
+          <span>
+            {query && semanticSearch.relatedTerms.length
+              ? `関連する言葉も確認：${semanticSearch.relatedTerms.slice(0, 6).join("・")}`
+              : "人物名が曖昧でも、出来事や見た目の記憶から関連語を補います。"}
+          </span>
+          <small>端末内で処理 · 外部AI API不使用 · 追加課金なし</small>
         </div>
         <button className={styles.detail} onClick={() => setDetails((value) => !value)}>
           詳細検索 {details ? "−" : "＋"}
@@ -165,17 +170,24 @@ export default function GlobalSearch() {
         )}
       </section>
       <section className={styles.results}>
-        {results.slice(0, 150).map((item) => (
+        {results.slice(0, 150).map(({ item, reasons }) => (
           <Link href={item.href} key={item.id} className={styles.card}>
             <span className={item.work === "水曜日のダウンタウン" ? styles.pink : styles.blue}>{item.work}</span>
             <div>
               <p>{item.label} · {item.group}</p>
               <h2>{item.title}</h2>
+              {query && reasons.length > 0 && <em className={styles.reason}>見つかった手がかり：{reasons.join(" · ")}</em>}
               <small>{[...item.people, ...item.keywords].map((term) => `#${term}`).join(" ")}</small>
             </div>
             <b>→</b>
           </Link>
         ))}
+        {query && results.length === 0 && (
+          <div className={styles.empty}>
+            <b>候補を見つけられませんでした</b>
+            <span>人物・見た目・場所・起きた出来事のうち、覚えているものをもう一つ加えてみてください。</span>
+          </div>
+        )}
         {results.length > 150 && <p className={styles.limit}>先頭150件を表示中。キーワードや詳細設定で絞り込めます。</p>}
       </section>
     </main>
