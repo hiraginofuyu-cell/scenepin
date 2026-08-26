@@ -169,8 +169,27 @@ const baseEpisodes:EpisodeInput[]=[
  {work:"黄泉のツガイ",episode:"第19話",title:"刀と弓",airtime:"8月15日 23:30",summary:"謎と怪奇が交錯する新感覚ツガイバトル。息もつかせぬ幻怪ファンタジーが動き始める。",keywords:["刀と弓","ツガイバトル","幻怪ファンタジー"],sourceUrls:["https://bangumi.org/tv_events/seasons?season_id=984380"]},
  {work:"MAO",episode:"第20話",title:"紗那の心臓",airtime:"8月15日 23:45",summary:"不知火が連れ去った真砂の亡骸を取り返すと誓う華紋。一方、夏野は、幽羅子が放っていた黒い邪気が、900年前に紗那の心臓をつかみ出した邪気と同じだと摩緒たちに語る。",keywords:["真砂の亡骸","華紋の誓い","幽羅子の黒い邪気","紗那の心臓","900年前"],sourceUrls:["https://bangumi.org/tv_events/seasons?season_id=984349"]},
 
+ {work:"文豪ストレイドッグス わん！2",episode:"第9話",title:"第9わん！",airtime:"8月27日 21:40",summary:"公園で誰かを待つ虫太郎の隣にポオが現れ、二人とも乱歩に呼び出されたと分かる。別の日、怪しげな手紙を受け取った安吾は秘密集団の会合へ迎えられる。",keywords:["虫太郎とポオ","乱歩の呼び出し","安吾への手紙","秘密集団の会合"],sourceUrls:["https://bangumi.org/tv_events/AmAFw4bG8AM?overwrite_area=23"]},
+ {work:"ワールド イズ ダンシング",episode:"第9話",title:"秘めたる想い",airtime:"8月27日 22:00",summary:"鬼夜叉と増次郎は協力して未完の演目〈汐汲〉を作ると決めるが、田楽新座の仲間たちの不満が募る。鬼夜叉の影響で読み書きを始めた千晴も、上達しない自分に虚しさを覚える。",keywords:["鬼夜叉と増次郎","汐汲","田楽新座の不満","千晴の読み書き","秘めたる想い"],sourceUrls:["https://bangumi.org/tv_events/AmAFw4bHMAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/worldisdancing-anime/"]},
+ {work:"令和のダラさん",episode:"第9話",title:"学校の七不思議",airtime:"8月27日 22:30",summary:"文化祭準備で夜の学校に残る日向たちは「学校の七不思議」で盛り上がる。遠見をするダラさんは学校の歪みを感じ、日向も有名な怪談に奇妙な違和感を覚える。",keywords:["文化祭準備","夜の学校","学校の七不思議","学校の歪み","奇妙な違和感"],sourceUrls:["https://bangumi.org/tv_events/AmAFw4bG0AM?overwrite_area=23"]},
+ {work:"バンドリ！ ゆめ∞みた",episode:"第11話",title:"たのしかった",airtime:"8月27日 23:00",summary:"寄り添うことで得ていた温かさと、離れなければよかったという思いが交錯する中、止められない火が燃え広がる。",keywords:["寄り添う温かさ","離れなければ","止まらない火","たのしかった"],sourceUrls:["https://bangumi.org/tv_events/AmAFw4bGsAM?overwrite_area=23","https://anime.bang-dream.com/yumemita/story/"]},
+ {work:"メビウス・ダスト",episode:"第8話",title:"ディープ・ディバイド",airtime:"8月27日 23:30",summary:"アラキがディアボリック・ゴーストへ加入したと知ったステラたちは、人数不足のまま対戦へ臨む。先読みで味方の動きを伝えるアラキに、ステラの怒りが募る。",keywords:["アラキの加入","ディアボリック・ゴースト","キングしっぽ","先読み","ステラの怒り"],sourceUrls:["https://bangumi.org/tv_events/AmAFw4bGkAM?overwrite_area=23"]},
+ {work:"スーパーの裏でヤニ吸うふたり",episode:"第8話",title:"スーパーの裏から見つけるふたり",airtime:"8月27日 23:56",summary:"元気のない田山の独り言を聞いてしまった佐々木は自責を抱えつつ、田山を元気づけるため犬の大五郎と行動を起こす。",keywords:["田山の独り言","佐々木の盗み聞き","大五郎","元気を取り戻す"],sourceUrls:["https://bangumi.org/tv_events/AmAAQYuiIAM?overwrite_area=23","https://yanisuu.com"]},
+ {work:"骸骨騎士様、只今異世界へお出掛け中Ⅱ",episode:"第8話",title:"潮騒よ聞け、哀しきくノ一の想い",airtime:"8月28日 0:00",summary:"ダンカが南の大陸で双剣使いに襲われたと知り、アークたちは船旅へ出る。巨大クラーケンが現れる一方、チヨメは襲撃者が六忍のサスケではないかと案じる。",keywords:["南の大陸","初めての船旅","巨大クラーケン","双剣使い","六忍サスケ","チヨメの不安"],sourceUrls:["https://bangumi.org/tv_events/AmAVw4bHEAM?overwrite_area=23"]},
+ {work:"追放された転生重騎士はゲーム知識で無双する",episode:"第9話",title:"夢の主（マスター）",airtime:"8月28日 0:26",summary:"ダンジョンマスター・エンブリオに単独で挑むエルマは絶体絶命となる。危険を顧みず戻ったルーチェと合流し、最後の賭けに出る。",keywords:["ダンジョンマスター","エンブリオ","絶体絶命","ルーチェの帰還","最後の賭け"],sourceUrls:["https://bangumi.org/tv_events/AmAQQYuiMAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/jukishi-anime/"]},
+ {work:"乙女怪獣キャラメリゼ",episode:"第9話",title:"乙女怪獣愚痴を吐け！",airtime:"8月28日 1:28",summary:"テレビ出演でさらに人気者になりそうな新汰。黒絵との時間を取り戻したい新汰の気持ちを理解しながらも、黒絵は不安を募らせる。一方、凛子はある島を訪れる。",keywords:["新汰のテレビ出演","黒絵の不安","二人の時間","凛子の島訪問"],sourceUrls:["https://bangumi.org/tv_events/AmAQQYuiYAM?overwrite_area=23","https://otomekaiju.com"]},
+
 ];
 const episodeCharacters:Record<string,string[]>={
+ "文豪ストレイドッグス わん！2|第9話":["小栗虫太郎","エドガー・アラン・ポオ","江戸川乱歩","坂口安吾"],
+ "ワールド イズ ダンシング|第9話":["鬼夜叉","増次郎","千晴"],
+ "令和のダラさん|第9話":["ダラさん","日向","毒島先生"],
+ "バンドリ！ ゆめ∞みた|第11話":["仲町あられ","宮永ののか","峰月律","藤都子","千石ユノ"],
+ "メビウス・ダスト|第8話":["アラキ","ステラ","ハルト","ショウセイ","クルス"],
+ "スーパーの裏でヤニ吸うふたり|第8話":["佐々木","田山","大五郎"],
+ "骸骨騎士様、只今異世界へお出掛け中Ⅱ|第8話":["アーク","アリアン","チヨメ","ダンカ","サスケ"],
+ "追放された転生重騎士はゲーム知識で無双する|第9話":["エルマ","ルーチェ","エンブリオ"],
+ "乙女怪獣キャラメリゼ|第9話":["赤石黒絵","南新汰","赤石凛子"],
  "猫と竜|第7話":["アンネロッサ","母猫","ハイブチ","猫竜"],
  "BLACK TORCH|第7話":[],
  "岩元先輩ノ推薦|第7話":["岩元","原町","佐々眼流雨","ローズマリィ","天羽"],
