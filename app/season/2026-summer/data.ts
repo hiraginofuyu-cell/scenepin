@@ -179,8 +179,27 @@ const baseEpisodes:EpisodeInput[]=[
  {work:"追放された転生重騎士はゲーム知識で無双する",episode:"第9話",title:"夢の主（マスター）",airtime:"8月28日 0:26",summary:"ダンジョンマスター・エンブリオに単独で挑むエルマは絶体絶命となる。危険を顧みず戻ったルーチェと合流し、最後の賭けに出る。",keywords:["ダンジョンマスター","エンブリオ","絶体絶命","ルーチェの帰還","最後の賭け"],sourceUrls:["https://bangumi.org/tv_events/AmAQQYuiMAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/jukishi-anime/"]},
  {work:"乙女怪獣キャラメリゼ",episode:"第9話",title:"乙女怪獣愚痴を吐け！",airtime:"8月28日 1:28",summary:"テレビ出演でさらに人気者になりそうな新汰。黒絵との時間を取り戻したい新汰の気持ちを理解しながらも、黒絵は不安を募らせる。一方、凛子はある島を訪れる。",keywords:["新汰のテレビ出演","黒絵の不安","二人の時間","凛子の島訪問"],sourceUrls:["https://bangumi.org/tv_events/AmAQQYuiYAM?overwrite_area=23","https://otomekaiju.com"]},
 
+ {work:"文豪ストレイドッグス わん！2",episode:"第10話",title:"第10わん！",airtime:"9月3日 21:40",summary:"中也と太宰を異世界や学園の主人公に見立て、成功を夢見る中二病真っ盛りの少年たちと、二人へ憧れの目を向ける人物の日常を描く。",keywords:["異世界の王となる中也","超エリート学園の太宰","ライトノベル","中二病","憧れのまなざし"],sourceUrls:["https://bangumi.org/tv_events/AmB1w4cPIAM?overwrite_area=23"]},
+ {work:"ワールド イズ ダンシング",episode:"第10話",title:"溢れた世界",airtime:"9月3日 22:00",summary:"舞競べの三戦目。実力不足を心配された鬼夜叉は舞台で進化を見せる。一方、コガネは歪な面をつけて観客席へ忍び込む。",keywords:["舞競べ三戦目","鬼夜叉の進化","コガネ","歪な面","観客席へ潜入"],sourceUrls:["https://bangumi.org/tv_events/AmB1w4cPYAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/worldisdancing-anime/"]},
+ {work:"令和のダラさん",episode:"第10話",title:"二人だけの文化祭",airtime:"9月3日 22:30",summary:"学校の文化祭を抜け出した薫は、ダラさんのために手作りの山文化祭を開催する。小学生姿のダラさんがメイド服で料理を振る舞う中、千夜が現れる。",keywords:["山文化祭","小学生姿のダラさん","メイド服","コーヒーとカレー","千夜の来訪"],sourceUrls:["https://bangumi.org/tv_events/AmB1w4cPAAM?overwrite_area=23"]},
+ {work:"バンドリ！ ゆめ∞みた",episode:"第12話",title:"わかれ",airtime:"9月3日 23:00",summary:"温かさだけでは思いは伝わらず、黙っていては何も変わらない。逃げないという決意が示される。",keywords:["わかれ","あたたかいだけじゃ伝わらない","黙っていたら変わらない","逃げない決意"],sourceUrls:["https://bangumi.org/tv_events/AmB1w4cO4AM?overwrite_area=23","https://anime.bang-dream.com/yumemita/story/"]},
+ {work:"メビウス・ダスト",episode:"第9話",title:"エンプティ・クラウン",airtime:"9月3日 23:30",summary:"ディアボリック・ゴーストで暮らし始めたアラキは、クルスとスピカの関係を知る。強化された先読みで仲間を支援し、連勝する彼らを止めようとスザクが決意する。",keywords:["ディアボリック・ゴーストでの生活","クルスとスピカ","ダストの供給","強化された先読み","スザクの決意"],sourceUrls:["https://bangumi.org/tv_events/AmB1w4cOwAM?overwrite_area=23"]},
+ {work:"骸骨騎士様、只今異世界へお出掛け中Ⅱ",episode:"第9話",title:"再会は黒き獣の咆哮と共に",airtime:"9月4日 0:00",summary:"アークたちは南の大陸の港町プリマスへ到着するが、ダンカはタジエントへ出発済みだった。追うためにドリフトプスを借りようとするアークは、主と認めさせる力比べに挑む。",keywords:["港町プリマス","ダンカを追う","タジエント","ドリフトプス","主を決める力比べ"],sourceUrls:["https://bangumi.org/tv_events/AmCFw4cPQAM?overwrite_area=23"]},
+ {work:"スーパーの裏でヤニ吸うふたり",episode:"第9話",title:"スーパーの裏で触れるひとり",airtime:"9月4日 0:01",summary:"佐々木の左手に指輪があるという噂を聞いた田山は、喫煙所で再会した佐々木へ冷たい態度を取る。すれ違う二人の間で、指輪に隠された真実が明らかになる。",keywords:["佐々木の左手の指輪","田山のショック","喫煙所での再会","冷たい態度","指輪の真実"],sourceUrls:["https://bangumi.org/tv_events/AmCAQYuxQAM?overwrite_area=23","https://yanisuu.com"]},
+ {work:"追放された転生重騎士はゲーム知識で無双する",episode:"第10話",title:"交渉",airtime:"9月4日 0:31",summary:"難関ダンジョン攻略とD級への飛級昇格を果たしたエルマとルーチェは、スキルブック〈燻り狂う牙〉を手に入れるため〈破れた魔導書堂〉を再訪する。",keywords:["D級冒険者へ飛級","燻り狂う牙","破れた魔導書堂","報酬獲得","スキルブックの交渉"],sourceUrls:["https://bangumi.org/tv_events/AmCAQYuxUAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/jukishi-anime/"]},
+ {work:"乙女怪獣キャラメリゼ",episode:"第10話",title:"泣くな失恋怪獣",airtime:"9月4日 1:33",summary:"大地に怪獣だと知られた黒絵は、世間へ広まる前に対処しようと悩む。大地が小学生ともめる現場を止めに入るが、黒絵の思い違いが判明する。",keywords:["大地に正体が発覚","怪獣の秘密","小学生とのもめ事","黒絵の思い違い","失恋怪獣"],sourceUrls:["https://bangumi.org/tv_events/AmCAQYuxgAM?overwrite_area=23","https://otomekaiju.com"]},
+
 ];
 const episodeCharacters:Record<string,string[]>={
+ "文豪ストレイドッグス わん！2|第10話":["中原中也","太宰治"],
+ "ワールド イズ ダンシング|第10話":["鬼夜叉","コガネ","石也","増次郎"],
+ "令和のダラさん|第10話":["ダラさん","薫","千夜"],
+ "バンドリ！ ゆめ∞みた|第12話":["仲町あられ","宮永ののか","峰月律","藤都子","千石ユノ"],
+ "メビウス・ダスト|第9話":["アラキ","クルス","スピカ","スザク"],
+ "骸骨騎士様、只今異世界へお出掛け中Ⅱ|第9話":["アーク","アリアン","チヨメ","ダンカ"],
+ "スーパーの裏でヤニ吸うふたり|第9話":["佐々木","田山","後藤","前澤","大野"],
+ "追放された転生重騎士はゲーム知識で無双する|第10話":["エルマ","ルーチェ"],
+ "乙女怪獣キャラメリゼ|第10話":["赤石黒絵","大地","南新汰"],
  "文豪ストレイドッグス わん！2|第9話":["小栗虫太郎","エドガー・アラン・ポオ","江戸川乱歩","坂口安吾"],
  "ワールド イズ ダンシング|第9話":["鬼夜叉","増次郎","千晴"],
  "令和のダラさん|第9話":["ダラさん","日向","毒島先生"],
