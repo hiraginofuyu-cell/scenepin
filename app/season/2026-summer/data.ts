@@ -189,8 +189,27 @@ const baseEpisodes:EpisodeInput[]=[
  {work:"追放された転生重騎士はゲーム知識で無双する",episode:"第10話",title:"交渉",airtime:"9月4日 0:31",summary:"難関ダンジョン攻略とD級への飛級昇格を果たしたエルマとルーチェは、スキルブック〈燻り狂う牙〉を手に入れるため〈破れた魔導書堂〉を再訪する。",keywords:["D級冒険者へ飛級","燻り狂う牙","破れた魔導書堂","報酬獲得","スキルブックの交渉"],sourceUrls:["https://bangumi.org/tv_events/AmCAQYuxUAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/jukishi-anime/"]},
  {work:"乙女怪獣キャラメリゼ",episode:"第10話",title:"泣くな失恋怪獣",airtime:"9月4日 1:33",summary:"大地に怪獣だと知られた黒絵は、世間へ広まる前に対処しようと悩む。大地が小学生ともめる現場を止めに入るが、黒絵の思い違いが判明する。",keywords:["大地に正体が発覚","怪獣の秘密","小学生とのもめ事","黒絵の思い違い","失恋怪獣"],sourceUrls:["https://bangumi.org/tv_events/AmCAQYuxgAM?overwrite_area=23","https://otomekaiju.com"]},
 
+ {work:"文豪ストレイドッグス わん！2",episode:"第11話",title:"第11わん！",airtime:"9月10日 21:40",summary:"織田作之助、太宰、安吾がピクニックへ出かける。穏やかな時間の裏で、太宰がある企みを巡らせる。",keywords:["織田作之助と太宰と安吾","三人のピクニック","太宰の企み","第11わん"],sourceUrls:["https://bangumi.org/tv_events/AmDlw4dZ8AM?overwrite_area=23","https://bungo-stray-dogs-wan.com/"]},
+ {work:"ワールド イズ ダンシング",episode:"第11話",title:"小望月",airtime:"9月10日 22:00",summary:"犬王は三条坊門御所へ召され、義満の前で舞うことを自ら選ぶ。成長した鬼夜叉も、客人たちが眠る間もなく舞い続ける。",keywords:["三条坊門御所","犬王の決断","義満の前で舞う","成長した鬼夜叉","眠らない客人"],sourceUrls:["https://bangumi.org/tv_events/AmDlw4daMAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/worldisdancing-anime/"]},
+ {work:"令和のダラさん",episode:"第11話",title:"禁断の肝試し",airtime:"9月10日 22:30",summary:"飼い主・筆木の独身を心配する猫のアラレはダラさんへ相談し、ダラさんと薫は相手探しに動く。一方、おろちは生命力を集めて周を救うため、周に肝試しをさせようとする。",keywords:["アラレの相談","筆木の相手探し","禁断の肝試し","おろちの計画","周を救う生命力"],sourceUrls:["https://bangumi.org/tv_events/AmDlw4dZ0AM?overwrite_area=23","https://darasan-anime.com/"]},
+ {work:"バンドリ！ ゆめ∞みた",episode:"第13話",title:"夢限大みゅーたいぷ",airtime:"9月10日 23:00",summary:"隠していた思いが歌へ変わり、違いを抱えたメンバーたちは同じステージに立つ。響き合う声が広がっていく最終回。",keywords:["最終回","隠していた思い","思いを歌にする","同じステージ","響き合う声"],sourceUrls:["https://bangumi.org/tv_events/AmDlw4dZsAM?overwrite_area=23","https://anime.bang-dream.com/yumemita/story/"]},
+ {work:"メビウス・ダスト",episode:"第10話",title:"バリア・ブレイク",airtime:"9月10日 23:30",summary:"アラキの異変を感じたショウセイ、カイ、ハルトは料理を持って訪ねる。ショウセイはアラキへ勝負を挑み、廃墟となった住宅地で三人とディアボリックの破壊戦が始まる。",keywords:["アラキの異変","料理を持って訪問","ショウセイの挑戦","廃墟の住宅地","三人対ディアボリック","挑戦の理由"],sourceUrls:["https://bangumi.org/tv_events/AmDlw4dZcAM?overwrite_area=23","https://mebiusdust.asmik-ace.co.jp/"]},
+ {work:"骸骨騎士様、只今異世界へお出掛け中Ⅱ",episode:"第10話",title:"非情の掟！ 涙を抱きて義兄を追う",airtime:"9月11日 0:00",summary:"黒巨人をおびき寄せるため幼子を殺した犯人は、六忍のサスケだった。死穢をまとい一度死んだことを示すサスケは、不審な首飾りでアンデッドを操り、チヨメを動揺させる。",keywords:["六忍サスケ","黒巨人をおびき寄せる","死穢","不審な首飾り","アンデッド操作","チヨメの動揺"],sourceUrls:["https://bangumi.org/tv_events/AmD1w4daEAM?overwrite_area=23","https://skeleton-knight.com/"]},
+ {work:"スーパーの裏でヤニ吸うふたり",episode:"第10話",title:"スーパーの裏で光るふたり",airtime:"9月11日 0:01",summary:"クリスマスの店内で、転がるオレンジをきっかけに佐々木は面識のない店員から営業職と勘違いされ、小さな悩みを打ち明けられる。しかし本当の悩みは別のところにあった。",keywords:["クリスマスのスーパー","転がるオレンジ","営業職と勘違い","見知らぬ店員の相談","本当の悩み"],sourceUrls:["https://bangumi.org/tv_events/AmDwQYvAAAM?overwrite_area=23","https://yanisuu.com"]},
+ {work:"追放された転生重騎士はゲーム知識で無双する",episode:"第11話",title:"逃れられない過去",airtime:"9月11日 0:31",summary:"エルマはスキルツリーへ〈燻り狂う牙〉を加える。活躍を聞きつけた父イサスと、エルマへ執着するマリスが冒険者ギルドを訪れる。",keywords:["燻り狂う牙","スキルツリー","父イサスの来訪","マリスの執着","冒険者ギルド","逃れられない過去"],sourceUrls:["https://bangumi.org/tv_events/AmDwQYvAEAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/jukishi-anime/"]},
+ {work:"乙女怪獣キャラメリゼ",episode:"第11話",title:"クロエVSアカエ",airtime:"9月11日 1:33",summary:"黒絵を狙う赤江が東京に現れる。新汰と聖那の親しげな姿を見た黒絵は変身できなくなり、新汰は炎に包まれた東京で黒絵を捜す。",keywords:["クロエ対アカエ","赤江の東京襲来","黒絵が変身できない","新汰と聖那","炎上する東京","黒絵を捜す新汰"],sourceUrls:["https://bangumi.org/tv_events/AmDwQYvAQAM?overwrite_area=23","https://otomekaiju.com"]},
+
 ];
 const episodeCharacters:Record<string,string[]>={
+ "文豪ストレイドッグス わん！2|第11話":["織田作之助","太宰治","坂口安吾"],
+ "ワールド イズ ダンシング|第11話":["犬王","足利義満","鬼夜叉"],
+ "令和のダラさん|第11話":["ダラさん","三十木谷薫","初瀬川周","筆木直道","アラレ","おろち"],
+ "バンドリ！ ゆめ∞みた|第13話":["仲町あられ","宮永ののか","峰月律","藤都子","千石ユノ"],
+ "メビウス・ダスト|第10話":["アラキ","ショウセイ","カイ","ハルト"],
+ "骸骨騎士様、只今異世界へお出掛け中Ⅱ|第10話":["サスケ","チヨメ"],
+ "スーパーの裏でヤニ吸うふたり|第10話":["佐々木"],
+ "追放された転生重騎士はゲーム知識で無双する|第11話":["エルマ","イサス","マリス"],
+ "乙女怪獣キャラメリゼ|第11話":["赤石黒絵","赤江","南新汰","聖那"],
  "文豪ストレイドッグス わん！2|第10話":["中原中也","太宰治"],
  "ワールド イズ ダンシング|第10話":["鬼夜叉","コガネ","石也","増次郎"],
  "令和のダラさん|第10話":["ダラさん","薫","千夜"],
