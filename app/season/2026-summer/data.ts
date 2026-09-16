@@ -199,8 +199,25 @@ const baseEpisodes:EpisodeInput[]=[
  {work:"追放された転生重騎士はゲーム知識で無双する",episode:"第11話",title:"逃れられない過去",airtime:"9月11日 0:31",summary:"エルマはスキルツリーへ〈燻り狂う牙〉を加える。活躍を聞きつけた父イサスと、エルマへ執着するマリスが冒険者ギルドを訪れる。",keywords:["燻り狂う牙","スキルツリー","父イサスの来訪","マリスの執着","冒険者ギルド","逃れられない過去"],sourceUrls:["https://bangumi.org/tv_events/AmDwQYvAEAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/jukishi-anime/"]},
  {work:"乙女怪獣キャラメリゼ",episode:"第11話",title:"クロエVSアカエ",airtime:"9月11日 1:33",summary:"黒絵を狙う赤江が東京に現れる。新汰と聖那の親しげな姿を見た黒絵は変身できなくなり、新汰は炎に包まれた東京で黒絵を捜す。",keywords:["クロエ対アカエ","赤江の東京襲来","黒絵が変身できない","新汰と聖那","炎上する東京","黒絵を捜す新汰"],sourceUrls:["https://bangumi.org/tv_events/AmDwQYvAQAM?overwrite_area=23","https://otomekaiju.com"]},
 
+ {work:"文豪ストレイドッグス わん！2",episode:"第12話",title:"第12わん！",airtime:"9月17日 21:40",summary:"鏡花は自分を武装探偵社へ連れてきてくれた敦へ感謝のサプライズを計画する。国木田はパーティーの買い出しで敦を外出させ、太宰へ足止めを命じる。",keywords:["最終回","鏡花から敦への感謝","サプライズパーティー","大量の買い出し","太宰の足止め"],sourceUrls:["https://bangumi.org/tv_events/AmFVw4eg8AM?overwrite_area=23","https://bungo-stray-dogs-wan.com/"]},
+ {work:"ワールド イズ ダンシング",episode:"第12話",title:"初心",airtime:"9月17日 22:00",summary:"目を覚ました鬼夜叉は懐かしい観世座にいた。数年ぶりに再会した十二五郎やサツキと過ごして初心へ帰る中、仲違いしたまま別れた石也と対面する。",keywords:["懐かしい観世座","初心に帰る鬼夜叉","十二五郎との再会","サツキとの再会","石也との対面","仲違いしたままの別れ"],sourceUrls:["https://bangumi.org/tv_events/AmFVw4ehMAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/worldisdancing-anime/"]},
+ {work:"令和のダラさん",episode:"第12話",title:"年末年始の過ごし方",airtime:"9月17日 22:30",summary:"千夜と薫が出かけ、暇を持て余した日向はダラさんハウスへ向かう。薫は美和の同人イベントを手伝って思わぬ人物たちと遭遇し、冬休みには日向と薫がダラさんを年末年始の行事へ巻き込む。",keywords:["千夜と薫の外出","ダラさんハウス","美和の同人イベント","思わぬ人物との遭遇","冬休み","年末年始の行事"],sourceUrls:["https://bangumi.org/tv_events/AmFVw4eg0AM?overwrite_area=23","https://darasan-anime.com/"]},
+ {work:"メビウス・ダスト",episode:"第11話",title:"メビウス・ダスト",airtime:"9月17日 23:30",summary:"ポリスホッパーへ戻ったアラキを認められず、ステラはアジトを飛び出す。オルガの言葉を受けてアラキと話す決意をするが、各地でアメーバ状のダストが発生し、クルスの暴走が明らかになる。",keywords:["アラキの帰還","ステラの怒り","オルガの説得","アメーバ状のダスト","新小岩へ出動","クルスの暴走"],sourceUrls:["https://bangumi.org/tv_events/AmFVw4egsAM?overwrite_area=23","https://mebiusdust.asmik-ace.co.jp/"]},
+ {work:"骸骨騎士様、只今異世界へお出掛け中Ⅱ",episode:"第11話",title:"血闘！ 崩壊の街に死す",airtime:"9月18日 0:00",summary:"捕らわれたエルフ族と獣人族を救うため、アークたちは黒巨人、アンデッド、兵士が入り乱れるタジエントへ突入する。アークは枢機卿パルルモと遭遇し、非道な実験とサスケのアンデッド化にヒルク教会が関わっていたと知る。",keywords:["タジエントへ突入","捕らわれたエルフと獣人","黒巨人とアンデッド","枢機卿パルルモ","ヒルク教会の実験","サスケのアンデッド化"],sourceUrls:["https://bangumi.org/tv_events/AmFlw4ehEAM?overwrite_area=23","https://skeleton-knight.com/"]},
+ {work:"スーパーの裏でヤニ吸うふたり",episode:"第11話",title:"スーパーの裏で迎える声",airtime:"9月18日 0:01",summary:"仕事納めの解放感に浸る佐々木が喫煙所へ行くと、後藤がスマホへ怒鳴っていた。体調を崩しても出勤しようとする田山に手を焼く後藤から、佐々木はある頼み事をされる。",keywords:["仕事納め","喫煙所で怒鳴る後藤","田山の体調不良","出勤を譲らない田山","後藤から佐々木へのお願い"],sourceUrls:["https://bangumi.org/tv_events/AmFgQYvPUAM?overwrite_area=23","https://yanisuu.com"]},
+ {work:"追放された転生重騎士はゲーム知識で無双する",episode:"第12話",title:"剣聖マリス",airtime:"9月18日 0:31",summary:"剣聖マリスの〈金剛連撃〉と圧倒的な能力差により、エルマは窮地へ追い込まれる。リスクと不安定さを承知で〈燻り狂う牙〉を発動し、重騎士の真の力で逆転を狙う。",keywords:["剣聖マリス","金剛連撃","圧倒的なステータス差","燻り狂う牙","重騎士の本当の力","形勢逆転"],sourceUrls:["https://bangumi.org/tv_events/AmFgQYvPYAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/jukishi-anime/"]},
+ {work:"乙女怪獣キャラメリゼ",episode:"第12話",title:"この一撃に愛をこめて",airtime:"9月18日 1:33",summary:"アカエのビームを受けたハルゴンは完全に沈黙し、東京の街は破壊され続ける。人々が絶望する中、新汰は一人でハルゴンの背中をよじ登り始める。",keywords:["最終回","アカエのビーム","沈黙するハルゴン","破壊される東京","人々の絶望","ハルゴンを登る新汰"],sourceUrls:["https://bangumi.org/tv_events/AmFgQYvPkAM?overwrite_area=23","https://otomekaiju.com"]},
+
 ];
 const episodeCharacters:Record<string,string[]>={
+ "文豪ストレイドッグス わん！2|第12話":["中島敦","泉鏡花","国木田独歩","太宰治"],
+ "ワールド イズ ダンシング|第12話":["鬼夜叉","十二五郎","サツキ","石也"],
+ "令和のダラさん|第12話":["ダラさん","三十木谷日向","三十木谷薫","千夜","五十子美和"],
+ "メビウス・ダスト|第11話":["アラキ","ステラ","オルガ","スピカ","クルス"],
+ "骸骨騎士様、只今異世界へお出掛け中Ⅱ|第11話":["アーク","アリアン","チヨメ","サスケ","パルルモ"],
+ "スーパーの裏でヤニ吸うふたり|第11話":["佐々木","田山","後藤"],
+ "追放された転生重騎士はゲーム知識で無双する|第12話":["エルマ","マリス","ルーチェ"],
+ "乙女怪獣キャラメリゼ|第12話":["赤石黒絵","南新汰","アカエ","ハルゴン"],
  "文豪ストレイドッグス わん！2|第11話":["織田作之助","太宰治","坂口安吾"],
  "ワールド イズ ダンシング|第11話":["犬王","足利義満","鬼夜叉"],
  "令和のダラさん|第11話":["ダラさん","三十木谷薫","初瀬川周","筆木直道","アラレ","おろち"],
