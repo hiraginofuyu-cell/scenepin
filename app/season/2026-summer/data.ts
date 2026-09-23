@@ -208,8 +208,23 @@ const baseEpisodes:EpisodeInput[]=[
  {work:"追放された転生重騎士はゲーム知識で無双する",episode:"第12話",title:"剣聖マリス",airtime:"9月18日 0:31",summary:"剣聖マリスの〈金剛連撃〉と圧倒的な能力差により、エルマは窮地へ追い込まれる。リスクと不安定さを承知で〈燻り狂う牙〉を発動し、重騎士の真の力で逆転を狙う。",keywords:["剣聖マリス","金剛連撃","圧倒的なステータス差","燻り狂う牙","重騎士の本当の力","形勢逆転"],sourceUrls:["https://bangumi.org/tv_events/AmFgQYvPYAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/jukishi-anime/"]},
  {work:"乙女怪獣キャラメリゼ",episode:"第12話",title:"この一撃に愛をこめて",airtime:"9月18日 1:33",summary:"アカエのビームを受けたハルゴンは完全に沈黙し、東京の街は破壊され続ける。人々が絶望する中、新汰は一人でハルゴンの背中をよじ登り始める。",keywords:["最終回","アカエのビーム","沈黙するハルゴン","破壊される東京","人々の絶望","ハルゴンを登る新汰"],sourceUrls:["https://bangumi.org/tv_events/AmFgQYvPkAM?overwrite_area=23","https://otomekaiju.com"]},
 
+ {work:"ワールド イズ ダンシング",episode:"最終回（話数確認中）",title:"留〆『能』",airtime:"9月24日 22:00",summary:"犬王とともに花の御所の舞台へ参加する鬼夜叉は、観阿弥へ初面の許しを求める。進む道を見つけた鬼夜叉へ、観阿弥は人の可能性を説く。",status:"最終回",keywords:["花の御所","犬王と舞台へ","初面の許し","観阿弥の言葉","人には限界はない","話数確認中"],sourceUrls:["https://bangumi.org/tv_events/AmHFw4ftsAM?overwrite_area=23","https://sh-anime.shochiku.co.jp/worldisdancing-anime/"]},
+ {work:"令和のダラさん",episode:"第13話",title:"令和のダラさん",airtime:"9月24日 22:30",summary:"名前を思い出したダラさんの身体が因縁の相手に乗っ取られる。日向と薫は怒りをあらわに立ち向かい、二人を守ろうとするダラさんへ日向が打開策を提案する。",status:"最終回",keywords:["ダラさんが名前を思い出す","因縁の相手に身体を乗っ取られる","日向と薫の反撃","きょうだいを守るダラさん","日向の打開策"],sourceUrls:["https://bangumi.org/tv_events/AmHFw4ftcAM?overwrite_area=23","https://darasan-anime.com/"]},
+ {work:"メビウス・ダスト",episode:"第12話",title:"セイム・スカイ",airtime:"9月24日 23:30",summary:"アラキはステラへ、隕石落下災害と特別な力、彼女を妹にした理由を語る。仲間とクルスのもとへ到達したアラキは、攻撃を受けながら彼の怒りの奥にある過去へ向き合う。",status:"最終回",keywords:["ステラを妹にした理由","隕石落下災害","ポリスホッパーの合流","クルスとの対峙","クルスの怒りの理由","同じ空"],sourceUrls:["https://bangumi.org/tv_events/AmHFw4ftUAM?overwrite_area=23","https://mebiusdust.asmik-ace.co.jp/"]},
+ {work:"骸骨騎士様、只今異世界へお出掛け中Ⅱ",episode:"第12話",title:"天晴！ 悪を蹴散らす骸骨裁き！",airtime:"9月25日 0:00",summary:"戦場で人々を救うアークの前へ、食らった者たちの恨みをまとい怪物と化した七枢機卿チャロスが現れる。アークは巨大な魔力を持つ敵へ聖なる裁きを下す。",status:"最終回",keywords:["怪物化したチャロス","ヒルク教会七枢機卿","食われた人々の恨み","巨大な魔力","アークの聖なる裁き"],sourceUrls:["https://bangumi.org/tv_events/AmHVw4ftkAM?overwrite_area=23","https://skeleton-knight.com/"]},
+ {work:"ヤニねこ",episode:"第12話",title:"ニャーは最終回でもヤニを吸うにゃ",airtime:"9月25日 0:30",summary:"打ち切り、クビ、理不尽な穴掘りバイトで住人たちが限界を迎える。満身創痍のヤニねこは大家へ怒りを爆発させ、電子レンジが飛び交う大げんかに発展する。",status:"最終回",keywords:["住人たちの限界","理不尽な穴掘りバイト","大家への怒り","電子レンジが飛び交う","アパート最大のけんか","最終回でもヤニを吸う"],sourceUrls:["https://bangumi.org/tv_events/AmHVw4ftEAM?overwrite_area=23"]},
+ {work:"スーパーの裏でヤニ吸うふたり",episode:"第12話",title:"スーパーの裏で続くふたり",airtime:"9月25日 0:26",summary:"佐々木は恩人である元上司・中島から定年退職の連絡と再会の誘いを受ける。その名前を見て、本社時代の苦い記憶がよみがえる。",status:"最終回",keywords:["中島の定年退職","久しぶりに会わないか","恩人の元上司","本社時代の苦い記憶","スーパーの裏で続くふたり"],sourceUrls:["https://bangumi.org/tv_events/AmHQQYvgwAM?overwrite_area=23","https://yanisuu.com"]},
+ {work:"追放された転生重騎士はゲーム知識で無双する",episode:"第13話",title:"確認中",airtime:"9月25日 0:56",summary:"第13話の放送は公式番組情報で確認できたが、個別の副題とあらすじは確認できていないため確認中。",status:"個別情報確認中",keywords:["第13話","重騎士","エルマ","ルーチェ","マリス","副題確認中","あらすじ確認中"],sourceUrls:["https://bangumi.org/tv_events/AmHQQYvg0AM?overwrite_area=23","https://sh-anime.shochiku.co.jp/jukishi-anime/"]},
+
 ];
 const episodeCharacters:Record<string,string[]>={
+ "ワールド イズ ダンシング|最終回（話数確認中）":["鬼夜叉","犬王","観阿弥"],
+ "令和のダラさん|第13話":["屋跨斑／ダラさん","三十木谷日向","三十木谷薫"],
+ "メビウス・ダスト|第12話":["アラキ","ステラ","クルス","オルガ","ショウセイ","カイ","ハルト"],
+ "骸骨騎士様、只今異世界へお出掛け中Ⅱ|第12話":["アーク","アリアン","ポンタ","チヨメ","チャロス"],
+ "ヤニねこ|第12話":["ヤニねこ","大家"],
+ "スーパーの裏でヤニ吸うふたり|第12話":["佐々木","山田／田山","中島","後藤","大野"],
+ "追放された転生重騎士はゲーム知識で無双する|第13話":["エルマ","ルーチェ","マリス"],
  "文豪ストレイドッグス わん！2|第12話":["中島敦","泉鏡花","国木田独歩","太宰治"],
  "ワールド イズ ダンシング|第12話":["鬼夜叉","十二五郎","サツキ","石也"],
  "令和のダラさん|第12話":["ダラさん","三十木谷日向","三十木谷薫","千夜","五十子美和"],
